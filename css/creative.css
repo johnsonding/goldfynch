@@ -12,7 +12,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #F05F40;
+  border-color: #f6da3e;
   border-width: 3px;
   max-width: 50px;
 }
@@ -23,11 +23,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color: #f6da3e;
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #f4d10d;
 }
 h1,
 h2,
@@ -43,7 +43,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #F05F40;
+  background-color: #f6da3e;
 }
 .bg-dark {
   background-color: #222222;
@@ -62,42 +62,45 @@ aside {
   padding: 0;
 }
 .navbar-default {
+  font-family: 'Oxygen', sans-serif;
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 700;
+  color: #f6da3e;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
+  font-size: 32px;
+}
+.navbar-default .navbar-header .navbar-brand .goldfynch-logo {
+  margin-top: -13px;
+  height: 55px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #f4d10d;
 }
 .navbar-default .navbar-header .navbar-toggle {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 12px;
   color: #222222;
-  text-transform: uppercase;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 13px;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #F05F40;
+  color: #f6da3e;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color: #f6da3e !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -129,12 +132,16 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #F05F40;
-    font-size: 14px;
+    color: black;
+    font-size: 18px;
+  }
+  .navbar-default.affix .navbar-header .navbar-brand .goldfynch-logo {
+    margin-top: -6px;
+    height: 35px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #f4d10d;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -142,7 +149,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
+    color: #f6da3e;
   }
 }
 header {
@@ -231,7 +238,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(246, 218, 62, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -279,7 +286,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #F05F40;
+  color: #f6da3e;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -335,8 +342,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #f6da3e;
+  border-color: #f6da3e;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -348,8 +355,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color: #f5d526;
+  border-color: #f4d31c;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -374,11 +381,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #f6da3e;
+  border-color: #f6da3e;
 }
 .btn-primary .badge {
-  color: #F05F40;
+  color: #f6da3e;
   background-color: white;
 }
 .btn {
@@ -386,7 +393,6 @@ fieldset[disabled] .btn-primary.active {
   border: none;
   border-radius: 300px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 .btn-xl {
   padding: 15px 30px;
