@@ -9,7 +9,8 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Oxygen;
+  font-weight: 400;
 }
 hr {
   border-color: #f6da3e;
@@ -50,7 +51,7 @@ p {
   color: white;
 }
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 section {
   padding: 100px 0;
@@ -776,6 +777,7 @@ Image credits: unsplash.com
   .timeline > li:nth-child(even) .timeline-image {
     left: 0;
     margin-left: 0;
+    float: left;
   }
   .timeline > li:nth-child(odd) .timeline-image {
     float: right;
