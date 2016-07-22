@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: Oxygen;
+  font-family: 'Oxygen', sans-serif;
   font-weight: 400;
 }
 hr {
@@ -40,11 +40,24 @@ h6 {
 }
 p {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
   margin-bottom: 20px;
 }
+b {
+  font-weight: 800 !important;
+  font-size: 18px;
+}
 .bg-primary {
-  background-color: #f6da3e;
+  background: -moz-linear-gradient(-45deg, #fcb426 0%, #fcb426 0%, #fcb426 0%, #f6da3e 60%, #faf175 92%);
+  background: -webkit-linear-gradient(-45deg, #fcb426 0%, #fcb426 0%, #fcb426 0%, #f6da3e 60%, #faf175 92%);
+  background: linear-gradient(135deg, #fcb426 0%, #fcb426 0%, #fcb426 0%, #f6da3e 60%, #faf175 92%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcb426', endColorstr='#55efcb', GradientType=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-primary h2 {
+  color: grey;
 }
 .bg-dark {
   background-color: #222222;
@@ -52,6 +65,9 @@ p {
 }
 .text-faded {
   color: rgba(0, 0, 0, 0.7);
+}
+.text-faded .bold-text {
+  font-weight: 900 !important;
 }
 section {
   padding: 100px 0;
@@ -186,6 +202,9 @@ header .header-content .header-content-inner p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 50px;
+}
+header .header-content .header-content-inner a {
+  color: grey;
 }
 @media (min-width: 768px) {
   header {
@@ -391,7 +410,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   border: none;
   border-radius: 300px;
   font-weight: 500;
@@ -800,4 +819,19 @@ Image credits: unsplash.com
   .timeline > li .line {
     display: none;
   }
+}
+footer {
+  padding: 100px 0 50px 0;
+}
+.footer-text {
+  line-height: 0.7;
+  font-size: 14px;
+}
+.footer-text a {
+  color: #333;
+}
+.footer-icon a {
+  color: #333;
+  font-size: 20px;
+  padding: 0 2px 10px 2px;
 }
