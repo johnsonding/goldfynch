@@ -1108,3 +1108,57 @@ fieldset[disabled] .btn-dark-brd {
 .legal-list a {
   color: black;
 }
+.terms-page {
+  height: 350px;
+  margin-bottom: 100px;
+  background-position: center top;
+  background-image: url('../img/contact/header.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+.terms-page .terms-title {
+  padding-top: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 50px;
+}
+.terms-list a {
+  color: black;
+}
+.service-agreement-page {
+  height: 350px;
+  margin-bottom: 100px;
+  background-position: center top;
+  background-image: url('../img/contact/header.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+.service-agreement-page .service-agreement-title {
+  padding-top: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 50px;
+}
+.service-agreement-list a {
+  color: black;
+}
+.privacy-page {
+  height: 350px;
+  margin-bottom: 100px;
+  background-position: center top;
+  background-image: url('../img/contact/header.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+.privacy-page .privacy-title {
+  padding-top: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 50px;
+}
+.privacy-list a {
+  color: black;
+}
