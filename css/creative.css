@@ -30,6 +30,9 @@ a:hover,
 a:focus {
   color: #f4d10d;
 }
+a .subheading {
+  color: #222;
+}
 h1,
 h2,
 h3,
@@ -124,6 +127,11 @@ aside {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+.navbar-default .highlight-link {
+  background-color: #f6da3e;
+  border-radius: 7px;
+  color: black !important;
+}
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -178,7 +186,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/header_black.jpg');
   text-align: center;
   color: white;
 }
@@ -572,7 +580,7 @@ Image credits: unsplash.com
   }
 }
 .workflow-section {
-  background-image: url(../img/view.jpg);
+  background-image: url(../img/sf.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -666,12 +674,15 @@ Image credits: unsplash.com
   padding: 0;
   color: #7d7d7d;
 }
-.timeline .timeline-heading h4.subheading {
+.timeline .timeline-heading h4 .subheading {
   margin: 0;
   padding: 0;
   text-transform: none;
   font-size: 18px;
-  color: #333333;
+  color: #333333 !important;
+}
+.timeline .timeline-heading h3 .subheading {
+  color: black !important;
 }
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
@@ -1073,7 +1084,7 @@ fieldset[disabled] .btn-dark-brd {
   height: 350px;
   margin-bottom: 100px;
   background-position: center top;
-  background-image: url('../img/contact/header.png');
+  background-image: url('../img/faq/faq.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
@@ -1094,7 +1105,7 @@ fieldset[disabled] .btn-dark-brd {
   height: 350px;
   margin-bottom: 100px;
   background-position: center top;
-  background-image: url('../img/contact/header.png');
+  background-image: url('../img/legal/stamp.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
@@ -1115,7 +1126,7 @@ fieldset[disabled] .btn-dark-brd {
   height: 350px;
   margin-bottom: 100px;
   background-position: center top;
-  background-image: url('../img/contact/header.png');
+  background-image: url('../img/legal/stamp.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
@@ -1133,7 +1144,7 @@ fieldset[disabled] .btn-dark-brd {
   height: 350px;
   margin-bottom: 100px;
   background-position: center top;
-  background-image: url('../img/contact/header.png');
+  background-image: url('../img/legal/stamp.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
@@ -1151,7 +1162,7 @@ fieldset[disabled] .btn-dark-brd {
   height: 350px;
   margin-bottom: 100px;
   background-position: center top;
-  background-image: url('../img/contact/header.png');
+  background-image: url('../img/legal/stamp.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
@@ -1168,7 +1179,7 @@ fieldset[disabled] .btn-dark-brd {
 .features-page {
   height: 350px;
   background-position: center top;
-  background-image: url('../img/contact/header.png');
+  background-image: url('../img/features/cards.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
