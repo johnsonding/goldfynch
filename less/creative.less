@@ -30,6 +30,9 @@ a {
     &:focus {
         color: darken(@theme-primary, 10%);
     }
+	.subheading {
+		color: #222;
+	}
 }
 
 h1,
@@ -148,6 +151,11 @@ aside {
             }
         }
     }
+	.highlight-link {
+		background-color: @theme-primary;
+		border-radius: 7px;
+		color: black !important;
+	}
     @media (min-width: 768px) {
         background-color: transparent;
         border-color: fade(white, 30%);
@@ -200,7 +208,7 @@ header {
     min-height: auto;
     .background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/header_black.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -549,7 +557,7 @@ Image credits: unsplash.com
 //timeline style
 
 .workflow-section {
-	background-image: url(../img/view.jpg); 
+	background-image: url(../img/sf.jpg); 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -659,12 +667,17 @@ Image credits: unsplash.com
     color: #7d7d7d;
 }
 
-.timeline .timeline-heading h4.subheading {
+.timeline .timeline-heading h4 .subheading {
+
   margin:0;
   padding:0;
     text-transform: none;
     font-size:18px;
-    color:#333333;
+    color:#333333 !important;
+}
+
+.timeline .timeline-heading h3 .subheading {
+    color:black !important;
 }
 
 .timeline .timeline-body>p,
@@ -1127,7 +1140,7 @@ fieldset[disabled] .btn-dark-brd {
 	margin-bottom: 100px;
 	
     background-position: center top;
-    background-image: url('../img/contact/header.png');
+    background-image: url('../img/faq/faq.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-size: auto;
@@ -1156,7 +1169,7 @@ fieldset[disabled] .btn-dark-brd {
 	margin-bottom: 100px;
 	
     background-position: center top;
-    background-image: url('../img/contact/header.png');
+    background-image: url('../img/legal/stamp.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-size: auto;
@@ -1184,7 +1197,7 @@ fieldset[disabled] .btn-dark-brd {
 	margin-bottom: 100px;
 	
     background-position: center top;
-    background-image: url('../img/contact/header.png');
+    background-image: url('../img/legal/stamp.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-size: auto;
@@ -1211,7 +1224,7 @@ fieldset[disabled] .btn-dark-brd {
 	margin-bottom: 100px;
 	
     background-position: center top;
-    background-image: url('../img/contact/header.png');
+    background-image: url('../img/legal/stamp.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-size: auto;
@@ -1238,7 +1251,7 @@ fieldset[disabled] .btn-dark-brd {
 	margin-bottom: 100px;
 	
     background-position: center top;
-    background-image: url('../img/contact/header.png');
+    background-image: url('../img/legal/stamp.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-size: auto;
@@ -1266,7 +1279,7 @@ fieldset[disabled] .btn-dark-brd {
 	//margin-bottom: 100px;
 	
     background-position: center top;
-    background-image: url('../img/contact/header.png');
+    background-image: url('../img/features/cards.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-size: auto;
