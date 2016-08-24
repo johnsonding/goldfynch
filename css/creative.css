@@ -1095,11 +1095,24 @@ fieldset[disabled] .btn-dark-brd {
   color: white;
   font-size: 50px;
 }
-.faq-list {
-  margin-top: -50px;
+.faq-navlist {
+  margin-bottom: 35px;
+}
+.faq-navlist h2 {
+  padding-bottom: 10px;
+}
+.faq-navlist h4 a {
+  color: black;
 }
 .faq-list h2 {
   padding-bottom: 50px;
+}
+#toTop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
 }
 .legal-page {
   height: 350px;
