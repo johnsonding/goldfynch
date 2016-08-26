@@ -60,7 +60,21 @@ b {
   background-attachment: fixed;
 }
 .bg-primary h2 {
-  color: grey;
+  color: #222222;
+}
+.bg-primary p {
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.bg-primary a {
+  font-size: 19px;
+  color: #505050;
+}
+.bg-primary a:hover,
+.bg-primary a:focus {
+  color: #000FFF !important;
+  font-size: 20px;
 }
 .bg-dark {
   background-color: #222222;
@@ -580,7 +594,7 @@ Image credits: unsplash.com
   }
 }
 .workflow-section {
-  background-image: url(../img/sf.jpg);
+  background-image: url(../img/workflow/sf.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -840,6 +854,12 @@ Image credits: unsplash.com
 footer {
   padding: 100px 0 50px 0;
 }
+footer hr {
+  border-color: #f6da3e;
+  padding-bottom: 35px;
+  border-width: 3px;
+  max-width: 75px;
+}
 .footer-text {
   line-height: 0.7;
   font-size: 14px;
@@ -878,7 +898,7 @@ footer {
 .pricing-page {
   height: 350px;
   background-position: center top;
-  background-image: url('../img/contact/header.png');
+  background-image: url('../img/pricing/pricing.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
@@ -1099,10 +1119,15 @@ fieldset[disabled] .btn-dark-brd {
   margin-bottom: 35px;
 }
 .faq-navlist h2 {
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 .faq-navlist h4 a {
   color: black;
+}
+.faq-navlist a:hover,
+.faq-navlist a:focus {
+  color: #f6da3e;
+  font-weight: 800;
 }
 .faq-list h2 {
   padding-bottom: 50px;
@@ -1130,7 +1155,7 @@ fieldset[disabled] .btn-dark-brd {
   font-size: 50px;
 }
 .legal-list {
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 .legal-list a {
   color: black;
@@ -1192,7 +1217,7 @@ fieldset[disabled] .btn-dark-brd {
 .features-page {
   height: 350px;
   background-position: center top;
-  background-image: url('../img/features/cards.png');
+  background-image: url('../img/features/features.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
@@ -1318,4 +1343,18 @@ fieldset[disabled] .btn-dark-brd {
   border: none;
   border-radius: 300px;
   font-weight: 500;
+}
+.about-page {
+  height: 350px;
+  background-position: center top;
+  background-image: url('../img/about/about.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+.about-page .about-title {
+  padding-top: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 50px;
 }
