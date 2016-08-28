@@ -81,7 +81,7 @@ b {
 	}
 	a {
 		font-size: 19px;
-	    color: #505050;
+	    color: #4C56FF;
 	    &:hover,
 	    &:focus {
 	        color: #000FFF !important;
@@ -169,6 +169,9 @@ aside {
 		background-color: @theme-primary;
 		border-radius: 7px;
 		color: black !important;
+	}
+	.highlight-link:hover {
+    	background-color: white !important;
 	}
     @media (min-width: 768px) {
         background-color: transparent;
@@ -391,6 +394,17 @@ header {
     padding: 10px 30px;
 }
 
+.header-btn:hover span {
+	display:none;
+}
+.header-btn:hover:before {
+	content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\f078\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	transition: 1s;
+}
+
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
@@ -417,6 +431,22 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @gray-darker;
+}
+
+
+//workflow section
+
+.img-circle {
+	border: 2px solid @theme-primary;
+}
+@media (max-width: 992px) {
+	.img-responsive {
+		width: 55%;
+		margin: 0 auto;
+	}
+	.subheading {
+		margin-bottom: 60px;
+	}
 }
 
 

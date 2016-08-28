@@ -69,7 +69,7 @@ b {
 }
 .bg-primary a {
   font-size: 19px;
-  color: #505050;
+  color: #4C56FF;
 }
 .bg-primary a:hover,
 .bg-primary a:focus {
@@ -145,6 +145,9 @@ aside {
   background-color: #f6da3e;
   border-radius: 7px;
   color: black !important;
+}
+.navbar-default .highlight-link:hover {
+  background-color: white !important;
 }
 @media (min-width: 768px) {
   .navbar-default {
@@ -440,6 +443,16 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   padding: 10px 30px;
 }
+.header-btn:hover span {
+  display: none;
+}
+.header-btn:hover:before {
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\f078\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  transition: 1s;
+}
 ::-moz-selection {
   color: white;
   text-shadow: none;
@@ -460,6 +473,18 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+.img-circle {
+  border: 2px solid #f6da3e;
+}
+@media (max-width: 992px) {
+  .img-responsive {
+    width: 55%;
+    margin: 0 auto;
+  }
+  .subheading {
+    margin-bottom: 60px;
+  }
 }
 /*
 Fade content bs-carousel with hero headers
