@@ -26,6 +26,7 @@ hr.light {
 a {
     .transition-all;
     color: @theme-primary;
+	outline: none !important;
     &:hover,
     &:focus {
         color: darken(@theme-primary, 10%);
@@ -142,9 +143,12 @@ aside {
         color: @gray-darker;
     }
     .nav {
+		padding: 7px 10px 6px 0px;
         > li {
             > a,
             > a:focus {
+				
+				line-height: 6px;
                 font-weight: 500;
                 font-size: 15px;
                 color: @gray-darker;
@@ -166,7 +170,8 @@ aside {
     }
 	.highlight-link {
 		background-color: @theme-primary;
-		border-radius: 7px;
+		background-size: 20px 10px;
+		border-radius: 10px;
 		color: black !important;
 	}
 	.highlight-link:hover {

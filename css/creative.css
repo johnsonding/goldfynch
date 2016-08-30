@@ -25,6 +25,7 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #f6da3e;
+  outline: none !important;
 }
 a:hover,
 a:focus {
@@ -121,8 +122,12 @@ aside {
   font-size: 14px;
   color: #222222;
 }
+.navbar-default .nav {
+  padding: 7px 10px 6px 0px;
+}
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
+  line-height: 6px;
   font-weight: 500;
   font-size: 15px;
   color: #222222;
@@ -142,7 +147,8 @@ aside {
 }
 .navbar-default .highlight-link {
   background-color: #f6da3e;
-  border-radius: 7px;
+  background-size: 20px 10px;
+  border-radius: 10px;
   color: black !important;
 }
 .navbar-default .highlight-link:hover {
