@@ -1388,45 +1388,44 @@ fieldset[disabled] .btn-dark-brd {
   color: white;
   font-size: 50px;
 }
-
-.info-cell {
+.feature-container .feature-section {
+  padding-left: 150px;
+  margin-bottom: 50px;
 }
-
-.info-cell a .img-responsive {
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+.feature-container .feature-section h4 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 700;
+  color: #666;
 }
-
-.info-cell a:hover {
-    text-decoration: none;
+.feature-container .feature-section img {
+  position: absolute;
+  width: 100px;
+  left: 30px;
+  top: 20px;
 }
-
-.info-cell a h3 {
-    margin-top: 50px;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
+.feature-container .feature-section .feature-details p.title {
+  color: #666;
+  font-size: 20px;
+  margin: 0 0 5px 0;
+  line-height: 24px;
 }
-.info-cell a p {
-    color: #999;
+.feature-container .feature-section .feature-details p.info {
+  color: #999;
+  font-size: 14px;
+  font-weight: 100;
+  margin: 0 0 20px 0;
+  line-height: 28px;
 }
-
-.info-cell a:hover p {
-    color: #666;
-}
-
-.info-cell a p strong {
-    color: #888;
-}
-
-@media (max-width: 991px) {
-    .info-cell {
-        margin-top: 0px !important;
-    }
-
-    .info-cell a h3 {
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
+@media (max-width: 480px) {
+  .feature-container .feature-section {
+    padding: 175px 10px 0 10px;
+    margin-bottom: 50px;
+  }
+  .feature-container .feature-section img {
+    height: 150px;
+    width: auto;
+    top: 0;
+    left: 20px;
+  }
 }
