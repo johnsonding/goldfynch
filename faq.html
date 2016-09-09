@@ -31,7 +31,7 @@
 	
 	<!-- GoldFynch font -->
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:300,400' rel='stylesheet' type='text/css'>
 
     <title>GoldFynch: e-discovery, simplified.</title>
 
@@ -116,6 +116,75 @@
     </section>
 	
 	<!-- faq page list -->
+
+<div class="container faq-container">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<h3>General</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<a class="faq-item open">
+				<h5 class="title">What is GoldFynch?</h5>
+				<div class="body">
+					<p>GoldFynch is a cloud-based, e-discovery review platform provided as “software as a service”.</p>
+					<p>
+						GoldFynch functions much like other web-based software you use, like email: all you have to do is go to the website (goldfynch.com)
+						and create an account for free. If you already have an account log in to start using it. Once you are logged in, just
+						create a case. You can then drag and drop files (PDF, emails, Word docs etc) into GoldFynch. The files are automatically
+						processed and made instantly searchable. It’s like having your own private search engine.
+					</p>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<a class="faq-item open">
+				<h5 class="title">What is E-discovery?</h5>
+				<div class="body">
+					<p>
+						e-Discovery (or electronic discovery) is a broad term used to describe collecting documents in an electronic format (such
+						as PDF, Microsoft Word etc.) and searching for information within the documents. It also includes the production or
+						export of documents in an electronic format.
+					</p>
+					<p>
+						Sometimes paper documents are scanned and the text is electronically extracted by OCR to make electronic documents. This
+						is also e-discovery. The length and breadth of e-discovery is well described in this Wikipedia entry.
+					</p>
+
+				</div>
+			</a>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<a class="faq-item open">
+				<h5 class="title">Why should I choose GoldFynch?</h5>
+				<div class="body">
+					<p>
+						GoldFynch takes a less-is-more approach to e-Discovery.  If you want an e-Discovery solution that’s fast, cost-effective and easy to use, GoldFynch is the answer.
+					</p>
+					<p>
+						There are a lot of e-Discovery solutions out there. Most started out with a focus on providing one specific feature and providing
+						it really well. In many cases, somewhere over the course of time things got complicated. Tasks and features that were
+						once simple became frustratingly tedious. The features that long-time users knew and loved become harder to use, while
+						newly added features that aren’t necessary for everyone continue to drive costs.
+					</p>
+
+					<p>
+						If you want an e-Discovery solution that’s fast, cost-effective and easy to use, GoldFynch is the answer.
+					</p>
+				</div>
+			</a>
+		</div>
+	</div>
+
+</div>
 	
 	<div class="container">
 		<div class="col-md-10 col-md-offset-1">
@@ -362,6 +431,15 @@ Once you are logged in, just create a case. You can then drag and drop files (PD
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+
+	<script>
+		$(function() {
+			$("a.faq-item").attr("href", "javascript:void(0)").click(function() {
+				console.log("clicked!");
+				$(this).find(".body").slideToggle();
+			});
+		});
+	</script>
 
 </body>
 

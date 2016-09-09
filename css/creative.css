@@ -1429,3 +1429,38 @@ fieldset[disabled] .btn-dark-brd {
     left: 20px;
   }
 }
+.faq-container h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ddd;
+  padding: 10px 15px;
+  border-bottom: 1px dashed #eee;
+}
+.faq-container .faq-item {
+  background-color: #fcfcfc;
+  padding: 5px 20px;
+  border-radius: 5px;
+  transition: height 1s;
+  display: block;
+  margin-bottom: 5px;
+}
+.faq-container .faq-item:hover,
+.faq-container .faq-item:active,
+.faq-container .faq-item:visited,
+.faq-container .faq-item:focus {
+  text-decoration: none;
+}
+.faq-container .faq-item h5.title {
+  font-size: 20px;
+  color: #1E9AEE;
+}
+.faq-container .faq-item .body {
+  color: #666;
+  display: none;
+}
+.faq-container .faq-item .body p {
+  font-weight: 100;
+}
+.faq-container .faq-item .body p:first-child {
+  font-weight: 400;
+}

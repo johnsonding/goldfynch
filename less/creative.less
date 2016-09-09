@@ -1568,3 +1568,43 @@ fieldset[disabled] .btn-dark-brd {
         }
     }
 }
+
+
+.faq-container {
+    h3 {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #ddd;
+        padding: 10px 15px;
+        border-bottom: 1px dashed #eee;
+    }
+    .faq-item {
+        background-color: #fcfcfc;
+        padding: 5px 20px;
+        border-radius: 5px;
+        transition: height 1s;
+        display: block;
+        margin-bottom: 5px;
+
+        &:hover,&:active,&:visited,&:focus {
+            text-decoration: none;
+        }
+
+        h5.title {
+            font-size: 20px;
+            color: #1E9AEE;
+        }
+
+        .body {
+            color: #666;
+            display: none;
+            p {
+                font-weight: 100;
+
+                &:first-child {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
