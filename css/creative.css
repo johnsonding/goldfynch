@@ -1460,6 +1460,7 @@ fieldset[disabled] .btn-dark-brd {
 }
 .faq-container .faq-item .body p {
   font-weight: 100;
+  margin-bottom: 10px;
 }
 .faq-container .faq-item .body p:first-child {
   font-weight: 400;
