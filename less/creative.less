@@ -913,13 +913,6 @@ footer hr {
 	padding: 0 2px 10px 2px;
 }
 
-@media (max-width: 991px) {
-	[class*="col-"]:not(:first-child){
-		margin-top: 40px;
-	}
-}
-
-
 // contact page
 
 .contact-page {
@@ -1618,6 +1611,7 @@ fieldset[disabled] .btn-dark-brd {
             background-image: url('/img/sshot1.png');
             background-size: cover;
             background-repeat: no-repeat;
+            background-position: top center;
 
             margin: auto;
 
@@ -1649,6 +1643,8 @@ fieldset[disabled] .btn-dark-brd {
     }
 
     .benefit-cell {
+        padding: 20px 3px 20px 3px;
+
         img {
             height: 128px;
             width: auto;
@@ -1663,6 +1659,9 @@ fieldset[disabled] .btn-dark-brd {
             color: #666;
             font-size: 20px;
             line-height: 28px;
+            position: relative;
+
+
         }
 
         p {
@@ -1693,6 +1692,14 @@ fieldset[disabled] .btn-dark-brd {
         font-size: 40px;
         color: #999;
         margin: 0;
+
+        &:after {
+            content:' ';
+            width: 10%;
+            border-bottom: 2px solid fade(#1E9AEE, 50%);
+            display: block;
+            margin: 10px auto;
+        }
     }
 
     p.sub {
@@ -1704,3 +1711,23 @@ fieldset[disabled] .btn-dark-brd {
     }
 }
 
+
+@media (max-width: 990px) {
+    #benefits {
+        .col-sm-6 {
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #benefits {
+        .benefit-cell {
+            padding: 20px 40px 20px 40px;
+        }
+
+        .pan-image-container {
+            display: none;
+            display: none;
+        }
+    }
+}
