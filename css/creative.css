@@ -1498,6 +1498,14 @@ fieldset[disabled] .btn-dark-brd {
   font-size: 40px;
   color: #888;
 }
+.benefit-cells .benefit-cell .number {
+  position: absolute;
+  font-size: 90px !important;
+  color: #ddd;
+  z-index: -10000;
+  left: 50%;
+  transform: translate(-100px, -50px);
+}
 .benefit-cells .benefit-cell h3.caption {
   color: #666;
   font-size: 20px;
@@ -1521,24 +1529,34 @@ fieldset[disabled] .btn-dark-brd {
 .benefit-cells .benefit-cell a:active {
   color: #1E9AEE;
 }
-#benefits h2 {
+#benefits h2,
+#workflow h2 {
   text-align: center;
   font-size: 40px;
   color: #999;
   margin: 0;
 }
-#benefits h2:after {
+#benefits h2:after,
+#workflow h2:after {
   content: ' ';
   width: 10%;
   border-bottom: 2px solid rgba(30, 154, 238, 0.5);
   display: block;
   margin: 10px auto;
 }
-#benefits p.sub {
+#benefits p.sub,
+#workflow p.sub {
   text-align: center;
   color: #999;
   font-size: 24px;
   margin: 0 0 30px 0;
+}
+@media (max-width: 768px) {
+  #benefits p.sub,
+  #workflow p.sub {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 @media (max-width: 768px) {
   #benefits .benefit-cell {
@@ -1546,5 +1564,156 @@ fieldset[disabled] .btn-dark-brd {
   }
   #benefits .pan-image-container {
     display: none;
+  }
+}
+.login-workflow {
+  height: 500px;
+  background-image: url('/img/login_workflow.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 80% center;
+}
+.workflow-cells {
+  margin: 50px 0 150px 0;
+  position: relative;
+}
+.workflow-cells .workflow-cell {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 100%;
+  position: relative;
+}
+.workflow-cells .workflow-cell .info {
+  position: relative;
+  margin-left: 50%;
+  width: 350px;
+  display: inline-block;
+}
+.workflow-cells .workflow-cell .info h3.title {
+  color: #666;
+  font-weight: 400;
+  font-size: 42px;
+}
+.workflow-cells .workflow-cell .info p {
+  font-weight: 200;
+  color: #999;
+}
+.workflow-cells .workflow-cell .info a {
+  color: #1E9AEE !important;
+}
+.workflow-cells .workflow-cell .info a:hover {
+  color: #0f7eca;
+}
+.workflow-cells .workflow-cell .info a:visited,
+.workflow-cells .workflow-cell .info a:focus,
+.workflow-cells .workflow-cell .info a:active {
+  color: #1E9AEE;
+}
+@media (max-width: 1130px) {
+  .workflow-cells .workflow-cell .info {
+    width: 275px;
+  }
+}
+.workflow-cells .workflow-cell .image {
+  position: absolute;
+}
+.workflow-cells .workflow-cell.workflow-cell-login .info {
+  left: -550px;
+}
+@media (max-width: 1280px) {
+  .workflow-cells .workflow-cell.workflow-cell-login .info {
+    left: -480px;
+  }
+}
+@media (max-width: 1130px) {
+  .workflow-cells .workflow-cell.workflow-cell-login .info {
+    left: -420px;
+  }
+}
+@media (max-width: 990px) {
+  .workflow-cells .workflow-cell.workflow-cell-login .info {
+    left: -330px;
+  }
+}
+.workflow-cells .workflow-cell.workflow-cell-login .image {
+  background-image: url('/img/login_workflow.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 600px;
+  height: 600px;
+  left: 50%;
+  top: 0px;
+}
+@media (max-width: 1280px) {
+  .workflow-cells .workflow-cell.workflow-cell-login .image {
+    margin-left: -70px;
+  }
+}
+@media (max-width: 1130px) {
+  .workflow-cells .workflow-cell.workflow-cell-login .image {
+    margin-left: -125px;
+    top: 40px;
+  }
+}
+@media (max-width: 990px) {
+  .workflow-cells .workflow-cell.workflow-cell-login .image {
+    height: 350px;
+    top: 150px;
+  }
+}
+.workflow-cells .workflow-cell.workflow-cell-uploads .info {
+  left: 200px;
+  top: -50px;
+}
+@media (max-width: 1140px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .info {
+    left: 150px;
+  }
+}
+@media (max-width: 1050px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .info {
+    left: 125px;
+  }
+}
+@media (max-width: 990px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .info {
+    left: 70px;
+  }
+}
+.workflow-cells .workflow-cell.workflow-cell-uploads .image {
+  background-image: url('/img/upload_workflow.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  width: 900px;
+  height: 600px;
+  left: 0;
+  top: 0;
+}
+@media (max-width: 1340px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .image {
+    width: 800px;
+  }
+}
+@media (max-width: 1140px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .image {
+    width: 700px;
+  }
+}
+@media (max-width: 1050px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .image {
+    width: 650px;
+  }
+}
+@media (max-width: 990px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .image {
+    width: 500px;
+    top: 20px;
+  }
+}
+@media (max-width: 830px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .image {
+    width: 450px;
   }
 }
