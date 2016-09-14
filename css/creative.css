@@ -1558,6 +1558,10 @@ fieldset[disabled] .btn-dark-brd {
     padding-right: 30px;
   }
 }
+#workflow .benefit-cell img {
+  width: 100%;
+  height: auto;
+}
 @media (max-width: 768px) {
   #benefits .benefit-cell {
     padding: 20px 40px 20px 40px;
@@ -1573,15 +1577,37 @@ fieldset[disabled] .btn-dark-brd {
   background-repeat: no-repeat;
   background-position: 80% center;
 }
+@media (min-width: 667px) {
+  .workflow-section-layed-out {
+    display: none;
+  }
+}
 .workflow-cells {
   margin: 50px 0 150px 0;
   position: relative;
 }
+@media (max-width: 667px) {
+  .workflow-cells {
+    display: none;
+  }
+}
 .workflow-cells .workflow-cell {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   width: 100%;
   position: relative;
+}
+@media (max-width: 990px) {
+  .workflow-cells .workflow-cell {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .workflow-cells .workflow-cell {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 .workflow-cells .workflow-cell .info {
   position: relative;
@@ -1594,9 +1620,20 @@ fieldset[disabled] .btn-dark-brd {
   font-weight: 400;
   font-size: 42px;
 }
+@media (max-width: 768px) {
+  .workflow-cells .workflow-cell .info h3.title {
+    font-size: 20px;
+  }
+}
 .workflow-cells .workflow-cell .info p {
   font-weight: 200;
   color: #999;
+}
+@media (max-width: 768px) {
+  .workflow-cells .workflow-cell .info p {
+    font-size: 16px;
+    line-height: 28px;
+  }
 }
 .workflow-cells .workflow-cell .info a {
   color: #1E9AEE !important;
@@ -1614,7 +1651,7 @@ fieldset[disabled] .btn-dark-brd {
     width: 275px;
   }
 }
-.workflow-cells .workflow-cell .image {
+.workflow-cells .workflow-cell .showcase {
   position: absolute;
 }
 .workflow-cells .workflow-cell.workflow-cell-login .info {
@@ -1632,34 +1669,44 @@ fieldset[disabled] .btn-dark-brd {
 }
 @media (max-width: 990px) {
   .workflow-cells .workflow-cell.workflow-cell-login .info {
-    left: -330px;
+    left: -360px;
+    top: -10px;
   }
 }
-.workflow-cells .workflow-cell.workflow-cell-login .image {
-  background-image: url('/img/login_workflow.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
+@media (max-width: 768px) {
+  .workflow-cells .workflow-cell.workflow-cell-login .info {
+    left: -310px;
+  }
+}
+.workflow-cells .workflow-cell.workflow-cell-login .showcase {
   width: 600px;
-  height: 600px;
+  height: auto;
   left: 50%;
-  top: 0px;
+  top: 40px;
 }
 @media (max-width: 1280px) {
-  .workflow-cells .workflow-cell.workflow-cell-login .image {
+  .workflow-cells .workflow-cell.workflow-cell-login .showcase {
     margin-left: -70px;
   }
 }
 @media (max-width: 1130px) {
-  .workflow-cells .workflow-cell.workflow-cell-login .image {
+  .workflow-cells .workflow-cell.workflow-cell-login .showcase {
     margin-left: -125px;
     top: 40px;
   }
 }
 @media (max-width: 990px) {
-  .workflow-cells .workflow-cell.workflow-cell-login .image {
-    height: 350px;
-    top: 150px;
+  .workflow-cells .workflow-cell.workflow-cell-login .showcase {
+    width: 450px;
+    top: 60px;
+    margin-left: -80px;
+  }
+}
+@media (max-width: 768px) {
+  .workflow-cells .workflow-cell.workflow-cell-login .showcase {
+    width: 350px;
+    top: 20px;
+    margin-left: -40px;
   }
 }
 .workflow-cells .workflow-cell.workflow-cell-uploads .info {
@@ -1669,51 +1716,68 @@ fieldset[disabled] .btn-dark-brd {
 @media (max-width: 1140px) {
   .workflow-cells .workflow-cell.workflow-cell-uploads .info {
     left: 150px;
+    top: -80px;
   }
 }
 @media (max-width: 1050px) {
   .workflow-cells .workflow-cell.workflow-cell-uploads .info {
+    top: -100px;
     left: 125px;
   }
 }
 @media (max-width: 990px) {
   .workflow-cells .workflow-cell.workflow-cell-uploads .info {
-    left: 70px;
+    top: -55px;
+    left: 120px;
   }
 }
-.workflow-cells .workflow-cell.workflow-cell-uploads .image {
-  background-image: url('/img/upload_workflow.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left center;
+@media (max-width: 860px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .info {
+    left: 80px;
+  }
+}
+.workflow-cells .workflow-cell.workflow-cell-uploads .showcase {
   width: 900px;
-  height: 600px;
+  height: auto;
   left: 0;
   top: 0;
 }
 @media (max-width: 1340px) {
-  .workflow-cells .workflow-cell.workflow-cell-uploads .image {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .showcase {
     width: 800px;
   }
 }
 @media (max-width: 1140px) {
-  .workflow-cells .workflow-cell.workflow-cell-uploads .image {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .showcase {
     width: 700px;
   }
 }
 @media (max-width: 1050px) {
-  .workflow-cells .workflow-cell.workflow-cell-uploads .image {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .showcase {
     width: 650px;
   }
 }
 @media (max-width: 990px) {
-  .workflow-cells .workflow-cell.workflow-cell-uploads .image {
-    width: 500px;
+  .workflow-cells .workflow-cell.workflow-cell-uploads .showcase {
+    width: 600px;
     top: 20px;
+    left: -20px;
   }
 }
-@media (max-width: 830px) {
-  .workflow-cells .workflow-cell.workflow-cell-uploads .image {
-    width: 450px;
+@media (max-width: 940px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .showcase {
+    left: -60px;
+  }
+}
+@media (max-width: 860px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .showcase {
+    left: -100px;
+  }
+}
+@media (max-width: 768px) {
+  .workflow-cells .workflow-cell.workflow-cell-uploads .showcase {
+    width: 500px;
+    top: 0px;
+    left: -120px;
   }
 }

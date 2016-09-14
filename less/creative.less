@@ -1724,6 +1724,15 @@ fieldset[disabled] .btn-dark-brd {
     }
 }
 
+#workflow {
+    .benefit-cell {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
 
 @media (max-width: 990px) {
     #benefits {
@@ -1753,27 +1762,55 @@ fieldset[disabled] .btn-dark-brd {
     background-position: 80% center;
 }
 
+.workflow-section-layed-out {
+    @media (min-width: 667px) {
+        display: none;
+    }
+}
+
 .workflow-cells {
     margin: 50px 0 150px 0;
     position: relative;
 
+    @media (max-width: 667px) {
+        display: none;
+    }
+
     .workflow-cell {
-        padding-top: 200px;
-        padding-bottom: 200px;
+        padding-top: 150px;
+        padding-bottom: 150px;
         width: 100%;
         position: relative;
+
+        @media (max-width: 990px) {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        @media (max-width: 768px) {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
 
         .info {
             h3.title {
                 color: #666;
                 font-weight: 400;
                 font-size: 42px;
+
+                @media (max-width: 768px) {
+                    font-size: 20px;
+                }
             }
 
             p {
                 font-weight: 200;
                 color: #999;
 
+                @media (max-width: 768px) {
+                    font-size: 16px;
+                    line-height: 28px;
+                }
             }
 
 
@@ -1800,7 +1837,7 @@ fieldset[disabled] .btn-dark-brd {
 
         }
 
-        .image {
+        .showcase {
             position: absolute;
         }
 
@@ -1818,19 +1855,20 @@ fieldset[disabled] .btn-dark-brd {
                 }
 
                 @media (max-width: 990px) {
-                    left: -330px;
+                    left: -360px;
+                    top: -10px;
+                }
+
+                @media (max-width: 768px) {
+                    left: -310px;
                 }
             }
 
-            .image {
-                background-image: url('/img/login_workflow.png');
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center center;
+            .showcase {
                 width: 600px;
-                height: 600px;
+                height: auto;
                 left: 50%;
-                top: 0px;
+                top: 40px;
 
                 @media (max-width: 1280px) {
                     margin-left: -70px;
@@ -1842,8 +1880,15 @@ fieldset[disabled] .btn-dark-brd {
                 }
 
                 @media(max-width: 990px) {
-                    height: 350px;
-                    top: 150px;
+                    width: 450px;
+                    top: 60px;
+                    margin-left: -80px;
+                }
+
+                @media(max-width: 768px) {
+                    width: 350px;
+                    top: 20px;
+                    margin-left: -40px;
                 }
             }
 
@@ -1856,24 +1901,27 @@ fieldset[disabled] .btn-dark-brd {
 
                 @media (max-width: 1140px) {
                     left: 150px;
+                    top: -80px;
                 }
 
                 @media(max-width: 1050px) {
+                    top: -100px;
                     left: 125px;
                 }
 
                 @media(max-width: 990px) {
-                    left: 70px;
+                    top: -55px;
+                    left: 120px;
+                }
+
+                @media(max-width: 860px) {
+                    left: 80px;
                 }
             }
 
-            .image {
-                background-image: url('/img/upload_workflow.png');
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: left center;
+            .showcase {
                 width: 900px;
-                height: 600px;
+                height: auto;
                 left: 0;
                 top: 0;
 
@@ -1890,16 +1938,25 @@ fieldset[disabled] .btn-dark-brd {
                 }
 
                 @media(max-width: 990px) {
-                    width: 500px;
+                    width: 600px;
                     top: 20px;
+                    left: -20px;
                 }
 
-                @media(max-width: 830px) {
-                    width: 450px;
+                @media(max-width: 940px) {
+                    left: -60px;
+                }
+
+                @media(max-width: 860px) {
+                    left: -100px;
+                }
+
+                @media(max-width: 768px) {
+                    width: 500px;
+                    top: 0px;
+                    left: -120px;
                 }
             }
-
         }
     }
-
 }
