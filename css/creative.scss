@@ -31,9 +31,9 @@ hr.light {
 a {
     @include transition-all;
 
-    color: $theme-primary;
+    color: $link-color;
 	outline: none !important;
-    
+
     &:hover,
     &:focus {
         color: darken($theme-primary, 10%);
@@ -129,7 +129,7 @@ aside {
     border-color: fade($gray-darker, 5%);
 
     @include transition-all;
-    
+
     .navbar-header .navbar-brand {
         color: $theme-primary;
 		font-family: 'Ubuntu', sans-serif;
@@ -951,8 +951,8 @@ footer hr {
 
 // pricing page
 
-@mixin bg-color-sky-light {
-	background: #f7f8fa !important;
+@mixin bg-color-sky-light-mixin {
+	background: #f8f8f8 !important;
 }
 
 .pricing-page {
@@ -974,7 +974,11 @@ footer hr {
 }
 
 .pricing-subtitle {
-	@include bg-color-sky-light;
+	@include bg-color-sky-light-mixin;
+}
+
+.bg-color-sky-light {
+    @include bg-color-sky-light-mixin;
 }
 
 .pricing-list {
@@ -1132,7 +1136,7 @@ fieldset[disabled] .btn-dark-brd {
 .pricing-list-v4 {
   text-align: center;
   background: #fff;
-  box-shadow: 15px 15px 15px 0 #eff1f8;
+  //box-shadow: 15px 15px 15px 0 #eff1f8;
 }
 
 .pricing-list-v4 .pricing-list-v4-header {
