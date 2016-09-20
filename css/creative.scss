@@ -1244,6 +1244,45 @@ fieldset[disabled] .btn-dark-brd {
 	display: none;
 }
 
+// services page
+
+.services-page {
+
+	height: 350px;
+	margin-bottom: 100px;
+
+    background-position: center top;
+    background-image: url('../img/features/features.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: auto;
+
+	.services-title {
+		padding-top: 50px;
+		font-family: 'Ubuntu', sans-serif;
+		color: white;
+		font-size: 50px;
+	}
+}
+
+.services-list {
+	h2 {
+		padding-bottom: 50px;
+	}
+	hr {
+		padding-top: -50px;
+	}
+}
+
+#toTop {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+
 
 // legal page
 
