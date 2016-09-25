@@ -4,6 +4,9 @@
 @import "variables.scss";
 @import "mixins.scss";
 
+
+$link-blue: #1E9AEE;
+
 // Global Components
 html,
 body {
@@ -1553,6 +1556,60 @@ fieldset[disabled] .btn-dark-brd {
 		color: white;
 		font-size: 50px;
 	}
+
+    .about-subtitle {
+		color: white;
+        font-size: 1.5em;
+        opacity: 0.9;
+    }
+}
+
+.about-content {
+    h1 {
+        color: #666;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .about-item {
+        position: relative;
+        padding: 10px 30px 30px 30px;
+        h3 {
+            color: #666;
+            padding: 10px 0;
+            margin-top: 0;
+        }
+
+        p {
+            color: #999;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        margin-bottom: 10px;
+        border-bottom: 1px solid #f4f4f4;
+
+        &:before {
+            position: absolute;
+            content: '\f101';
+            font-family: 'FontAwesome';
+            font-size: 20px;
+            color: $link-blue;
+            left: -0px;
+            top: 18px;
+
+            @media (max-width: 768px) {
+                content: '';
+            }
+        }
+
+        &.no-indicator {
+            &:before {
+                content: '';
+            }
+        }
+    }
 }
 
 .feature-container {
@@ -1607,8 +1664,6 @@ fieldset[disabled] .btn-dark-brd {
         }
     }
 }
-
-$link-blue: #1E9AEE;
 
 .faq-container {
     h3 {
