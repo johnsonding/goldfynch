@@ -18,7 +18,7 @@ email: info@goldfynch.com
 description: > # this means to ignore newlines until "baseurl:"
     GoldFynch is a powerful, easy-to-use, and incredibly affordable e-discovery platform for lawyers. Signing up is fast and free (it takes just minutes), so you can get to work immediately. GoldFynch is simple and intuitive: just drag-and-drop files into the GoldFynch app in your web browser to start searching, tagging and producing documents. Your files are secured on our cloud, with bank-grade encryption, so you don't need to install software. Pricing is transparent (no hidden fees or locked features), fixed, up-front, and 1/10th that of the industry standard. GoldFynch is hassle-free e-discovery, for less.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://goldfynch.com" # the base hostname & protocol for your site
+url: "https://goldfynch.com" # the base hostname & protocol for your site
 
 gems:
   - jekyll-sitemap
