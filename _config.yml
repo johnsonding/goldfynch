@@ -27,3 +27,4 @@ gems:
 # Build settings
 markdown: kramdown
 paginate: 5
+permalink: /blog/:year/:month/:day/:title.html
