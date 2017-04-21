@@ -4,6 +4,8 @@
 @import "variables.scss";
 @import "mixins.scss";
 
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
 $link-blue: #1E9AEE;
 
 // Global Components
@@ -2218,9 +2220,10 @@ fieldset[disabled] .btn-dark-brd {
             margin: 40px 0 20px 0;
         }
         p,ul,ol {
-            font-family: 'Lato', sans-serif;
-            line-height: 1.5;
-            color: #999;
+            font-family: 'Bitter', sans-serif;
+            line-height: 1.8;
+            font-size: 18px;
+            color: #555;
         }
     }
 
@@ -2262,12 +2265,13 @@ fieldset[disabled] .btn-dark-brd {
 
         .excerpt {
             margin: 5px 0 5px 0;
-            font-family: 'Lato', sans-serif;
-            color: #666;
+            font-family: 'Bitter', sans-serif;
+            color: #555;
+            font-size: 18px;
 
             & > p {
                 margin: 0;
-                line-height: 20px;
+                line-height:1.8;
             }
         }
         .fa-angle-double-right {
