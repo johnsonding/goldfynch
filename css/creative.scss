@@ -2285,3 +2285,22 @@ fieldset[disabled] .btn-dark-brd {
         }
     }
 }
+
+.page404 {
+    text-align: center;
+    h3 {
+        color: #900;
+    }
+
+    .link-set {
+        margin-top: 40px;
+
+        .link {
+            p {
+                color: #666;
+                font-size: 15px;
+                line-height: 1.2;
+            }
+        }
+    }
+}
