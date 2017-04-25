@@ -1746,11 +1746,12 @@ fieldset[disabled] .btn-dark-brd {
     }
 
     .benefit-cell {
-        padding: 20px 3px 20px 3px;
+        padding: 20px;
 
         img {
             height: 128px;
             width: auto;
+            color: blue;
         }
 
         i {
@@ -1768,19 +1769,17 @@ fieldset[disabled] .btn-dark-brd {
         }
 
         h3.caption {
-            color: #666;
+            color: $blue-charcoal;
             font-size: 20px;
             line-height: 28px;
             position: relative;
-
-
         }
 
         p {
-            color: #999;
+            color: #555;
             font-size: 16px;
             line-height: 26px;
-            font-weight: 100;
+            font-weight: 400;
         }
 
         a {
@@ -1850,11 +1849,11 @@ fieldset[disabled] .btn-dark-brd {
 
 }
 
-#benefits,#workflow {
+#benefits {
     h2 {
         text-align: center;
         font-size: 40px;
-        color: #999;
+        color: $blue-charcoal;
         margin: 0;
 
         &:after {
@@ -1868,30 +1867,13 @@ fieldset[disabled] .btn-dark-brd {
 
     p.sub {
         text-align: center;
-        color: #999;
+        color: #666;
         font-size: 24px;
         margin: 0 0 30px 0;
 
         @media (max-width: 768px) {
             padding-left: 30px;
             padding-right: 30px;
-        }
-    }
-}
-
-#workflow {
-    .benefit-cell {
-        img {
-            width: 100%;
-            height: auto;
-        }
-    }
-}
-
-
-@media (max-width: 990px) {
-    #benefits {
-        .col-sm-6 {
         }
     }
 }
@@ -2124,7 +2106,7 @@ fieldset[disabled] .btn-dark-brd {
         h1 {
             text-align: center;
             font-size: 40px;
-            color: #999;
+            color: $blue-charcoal;
             margin: 0;
 
             &:after {
@@ -2138,7 +2120,7 @@ fieldset[disabled] .btn-dark-brd {
 
         p.sub {
             text-align: center;
-            color: #999;
+            color: #666;
             font-size: 24px;
             line-height: 1.5;
             margin: 0 0 30px 0;
@@ -2169,21 +2151,18 @@ fieldset[disabled] .btn-dark-brd {
     }
 
     .feature-text {
-        width: 60%;
-
         h2 {
-            color: #666;
+            color: $blue-charcoal;
         }
 
         p {
-            color: #999;
+            color: #666;
             font-weight: 200;
             font-size: 18px;
             line-height: 1.5;
         }
 
         @media (max-width: 768px) {
-            width: 80%;
             text-align: center;
         }
     }
@@ -2208,8 +2187,8 @@ fieldset[disabled] .btn-dark-brd {
     }
 
     .padding {
-        padding-top: 200px !important;
-        padding-bottom: 200px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
 
         @media (max-width: 768px) {
             padding-top: 0px !important;
