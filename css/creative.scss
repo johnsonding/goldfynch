@@ -4,7 +4,10 @@
 @import "variables.scss";
 @import "mixins.scss";
 
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
 $link-blue: #1E9AEE;
+$blue-charcoal: #272C31;
 
 // Global Components
 html,
@@ -125,23 +128,27 @@ aside {
 
 // Navigation
 
-.navbar-default {
-	font-family: 'Oxygen', sans-serif;
-    background-color: white;
-    border-color: fade($gray-darker, 5%);
+#mainNav {
+    margin: 0;
+    background-color: $blue-charcoal;
+    border-radius: 0;
+    border-width: 0;
+    padding-top: 10px;
+}
 
+.navbar-default {
     @include transition-all;
 
     .navbar-header .navbar-brand {
-        color: $theme-primary;
-		font-family: 'Ubuntu', sans-serif;
+        color: fade-out(white, 0.3);
+        font-family: 'Ubuntu', sans-serif;
         font-weight: 200;
-		font-size: 32px;
+        font-size: 32px;
 
-		.goldfynch-logo {
-			margin-top: -13px;
-			height: 55px;
-		}
+        .goldfynch-logo {
+            margin-top: -13px;
+            height: 55px;
+        }
 
         &:hover,
         &:focus {
@@ -149,22 +156,33 @@ aside {
         }
     }
     .navbar-header .navbar-toggle {
-        font-weight: 400;
-        font-size: 14px;
-        color: $gray-darker;
+        border: none;
+
+        &:hover, &:active, &:focus {
+            background-color: transparent;
+        }
     }
+
     .nav {
-		padding: 7px 10px 6px 0px;
+        padding: 7px 10px 6px 0px;
+        .nav > li > a,
+        .nav > li > a:focus {
+            color: fade-out(white, 0.3);
+            &:hover {
+                color: white;
+            }
+        }
+
         > li {
             > a,
             > a:focus {
-
-				line-height: 6px;
+                line-height: 6px;
                 font-weight: 500;
                 font-size: 15px;
-                color: $gray-darker;
+
+                color: fade-out(white, 0.3);
                 &:hover {
-                    color: $theme-primary;
+                    color: white;
                 }
             }
             &.active {
@@ -179,18 +197,17 @@ aside {
             }
         }
     }
-	.highlight-link {
-		background-color: $theme-primary;
-		background-size: 20px 10px;
-		border-radius: 10px;
-		color: black !important;
-	}
-	.highlight-link:hover {
-    	background-color: white !important;
-	}
-    @media (min-width: 768px) {
+
+    .navbar-collapse {
+        border-top: none !important;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+
+    @media (max-width: 768px) {
         background-color: transparent;
-        border-color: fade-out(white, 0.7);
+        border-color: $blue-charcoal;
+
         .navbar-header .navbar-brand {
             color: fade-out(white, 0.3);
             &:hover,
@@ -198,35 +215,21 @@ aside {
                 color: white;
             }
         }
+
+        .nav {
+            padding: 0 40px;
+        }
         .nav > li > a,
         .nav > li > a:focus {
-            color: fade-out(white, 0.3);
-            &:hover {
-                color: white;
-            }
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 30px 0;
         }
-        &.affix {
-            background-color: white;
-            border-color: fade-out($gray-darker, 0.95);
-            .navbar-header .navbar-brand {
-                color: black;	//old: $theme-primary
-                font-size: 18px;
-
-				.goldfynch-logo {
-					margin-top: -6px;
-					height: 35px;
-				}
-                &:hover,
-                &:focus {
-                    color: darken($theme-primary, 10%);
-                }
-            }
-            .nav > li > a,
-            .nav > li > a:focus {
-                color: $gray-darker;
-                &:hover {
-                    color: $theme-primary;
-                }
+        .nav > li {
+            border-bottom: 1px solid #444 ;
+            &:last-child {
+                border-bottom: none;
             }
         }
     }
@@ -1743,11 +1746,12 @@ fieldset[disabled] .btn-dark-brd {
     }
 
     .benefit-cell {
-        padding: 20px 3px 20px 3px;
+        padding: 20px;
 
         img {
             height: 128px;
             width: auto;
+            color: blue;
         }
 
         i {
@@ -1765,19 +1769,17 @@ fieldset[disabled] .btn-dark-brd {
         }
 
         h3.caption {
-            color: #666;
+            color: $blue-charcoal;
             font-size: 20px;
             line-height: 28px;
             position: relative;
-
-
         }
 
         p {
-            color: #999;
+            color: #555;
             font-size: 16px;
             line-height: 26px;
-            font-weight: 100;
+            font-weight: 400;
         }
 
         a {
@@ -1795,11 +1797,63 @@ fieldset[disabled] .btn-dark-brd {
     }
 }
 
-#benefits,#workflow {
+#header {
+    background-color: $blue-charcoal;
+    color: white;
+
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        color: #999;
+        line-height: 1.5;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    strong {
+        color: white;
+    }
+
+    form {
+        padding-top: 40px;
+        .hint {
+            padding: 5px 0;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .btn {
+            border-radius: 3px;
+            font-size: 16px;
+            color: $blue-charcoal;
+            padding: 15px 0;
+        }
+    }
+
+
+    @media(max-width: 768px) {
+        padding: 20px 20px;
+    }
+
+    @media(max-width: 414px) {
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+}
+
+#benefits {
     h2 {
         text-align: center;
         font-size: 40px;
-        color: #999;
+        color: $blue-charcoal;
         margin: 0;
 
         &:after {
@@ -1813,30 +1867,13 @@ fieldset[disabled] .btn-dark-brd {
 
     p.sub {
         text-align: center;
-        color: #999;
+        color: #666;
         font-size: 24px;
         margin: 0 0 30px 0;
 
         @media (max-width: 768px) {
             padding-left: 30px;
             padding-right: 30px;
-        }
-    }
-}
-
-#workflow {
-    .benefit-cell {
-        img {
-            width: 100%;
-            height: auto;
-        }
-    }
-}
-
-
-@media (max-width: 990px) {
-    #benefits {
-        .col-sm-6 {
         }
     }
 }
@@ -2069,7 +2106,7 @@ fieldset[disabled] .btn-dark-brd {
         h1 {
             text-align: center;
             font-size: 40px;
-            color: #999;
+            color: $blue-charcoal;
             margin: 0;
 
             &:after {
@@ -2083,7 +2120,7 @@ fieldset[disabled] .btn-dark-brd {
 
         p.sub {
             text-align: center;
-            color: #999;
+            color: #666;
             font-size: 24px;
             line-height: 1.5;
             margin: 0 0 30px 0;
@@ -2114,21 +2151,18 @@ fieldset[disabled] .btn-dark-brd {
     }
 
     .feature-text {
-        width: 60%;
-
         h2 {
-            color: #666;
+            color: $blue-charcoal;
         }
 
         p {
-            color: #999;
+            color: #666;
             font-weight: 200;
             font-size: 18px;
             line-height: 1.5;
         }
 
         @media (max-width: 768px) {
-            width: 80%;
             text-align: center;
         }
     }
@@ -2153,8 +2187,8 @@ fieldset[disabled] .btn-dark-brd {
     }
 
     .padding {
-        padding-top: 200px !important;
-        padding-bottom: 200px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
 
         @media (max-width: 768px) {
             padding-top: 0px !important;
@@ -2218,9 +2252,10 @@ fieldset[disabled] .btn-dark-brd {
             margin: 40px 0 20px 0;
         }
         p,ul,ol {
-            font-family: 'Lato', sans-serif;
-            line-height: 1.5;
-            color: #999;
+            font-family: 'Bitter', sans-serif;
+            line-height: 1.8;
+            font-size: 18px;
+            color: #555;
         }
     }
 
@@ -2262,12 +2297,13 @@ fieldset[disabled] .btn-dark-brd {
 
         .excerpt {
             margin: 5px 0 5px 0;
-            font-family: 'Lato', sans-serif;
-            color: #666;
+            font-family: 'Bitter', sans-serif;
+            color: #555;
+            font-size: 18px;
 
             & > p {
                 margin: 0;
-                line-height: 20px;
+                line-height:1.8;
             }
         }
         .fa-angle-double-right {
@@ -2278,6 +2314,25 @@ fieldset[disabled] .btn-dark-brd {
         border-bottom: 1px dashed #ccc;
         &:last-child {
             border-bottom: none;
+        }
+    }
+}
+
+.page404 {
+    text-align: center;
+    h3 {
+        color: #900;
+    }
+
+    .link-set {
+        margin-top: 40px;
+
+        .link {
+            p {
+                color: #666;
+                font-size: 15px;
+                line-height: 1.2;
+            }
         }
     }
 }

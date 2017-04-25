@@ -22,7 +22,7 @@ If you want to know more about Google Cloud, just watch this video.
 
 {% youtube StTqXEQ2l-Y %}
 
-{% image ediscovery.jpg 800 %}
+{% image ediscovery.jpg "GoldFynch E-discovery" 800 %}
 
 
 Remember, Google Cloud is the infrastructure that Google leases to companies like us, not to be confused with Google Drive (which is a consumer product as a part of Google accounts). Google Cloud allows us to seamlessly and cost-effectively deliver services to our customers. With Google Cloud, we can utilize multi-region data centers, faster processors and advanced encryption. So your data is processed more quickly and stored more securely.
