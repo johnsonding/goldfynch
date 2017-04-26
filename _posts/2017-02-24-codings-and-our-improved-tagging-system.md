@@ -6,7 +6,7 @@ tags: general new-features review
 author: "Anith Mathai"
 ---
 
-**We’ve created a new category of ‘tags’ called ‘codings’**
+###We’ve created a new category of ‘tags’ called ‘codings’
 
 - A coding is a special tag that is pinned/unpinned (i.e. toggled on/off) by clicking its button. 
 
@@ -20,13 +20,13 @@ _Here, the first 4 buttons are codings the last green one is a regular tag. The 
 
 [**Note:** GoldFynch has had a ‘codings’ system for a while, but only for fixed categories. Our rebooted version is much more versatile.] 
 
-**You can apply codings as quickly as tags. **
+###You can apply codings as quickly as tags.
 
 They’re in the tag pane, with one-click access.
 
 {% image 2017-02-24/unpinned-coding.png "Unpinned Coding" %}
 
-**You can convert a tag into a coding, and a coding into a tag.**
+###You can convert a tag into a coding, and a coding into a tag.
 
 {% image 2017-02-24/convert-coding-to-tag.png "Convert Coding to Tag" %}
 
@@ -36,7 +36,7 @@ _Below, the first 4 tags are codings:_
 
 {% image 2017-02-24/coding-tags.png "Coding Tags" %}
 
-**You can unpin codings and remove tags in bulk.**
+###You can unpin codings and remove tags in bulk.
 
 {% image 2017-02-24/unpin-codings-and-remove-tags.png "Unpin Codings and Remove Tags" %}
 
@@ -44,39 +44,11 @@ _Below, the first 4 tags are codings:_
 
 {% image 2017-02-24/tag-deletion-confirmation.png "Tag Deletion Confirmation" %}
 
-**We have also created ‘auto tags’. **
+###We have also created ‘auto tags’.
 
 They are managed by GoldFynch, so you cannot add/remove/edit them. 
 
 _E.g. The ‘Untagged’ tag for items that don’t have any other tags._
 
 {% image 2017-02-24/auto-tag.png "Auto Tag" %}
-
-
-### We’ve created a new category of ‘tags’ called ‘codings’
-A coding is a special tag that is pinned/unpinned (i.e. toggled on/off) by clicking its button. 
-When unpinned (i.e. turned off), the coding’s button changes color, but remains visible.  
-In contrast, with regular tags the button disappears when deactivated.  
-
-
-We’re finished our switch over to Google Cloud Storage this weekend. You might have noticed some service interruptions this weekend.
-
-### Why the switch?
-Along with the benefits of added performance while uploading, downloading and processing your files, Google Cloud Storage provides us with extensive security and auditing capabilities. This a major milestone towards HIPAA complaint GoldFynch.
-
-If you have any questions feel free to email us at support@goldfynch.com
-
-### Interested in cloud providers comparison?
-This article on Medium does an excellent job summarizing the differences between the various cloud providers.
-
-If you want to know more about Google Cloud, just watch this video.
-
-
-{% youtube StTqXEQ2l-Y %}
-
-{% image ediscovery.jpg "GoldFynch E-discovery" 800 %}
-
-
-Remember, Google Cloud is the infrastructure that Google leases to companies like us, not to be confused with Google Drive (which is a consumer product as a part of Google accounts). Google Cloud allows us to seamlessly and cost-effectively deliver services to our customers. With Google Cloud, we can utilize multi-region data centers, faster processors and advanced encryption. So your data is processed more quickly and stored more securely.
-
 
