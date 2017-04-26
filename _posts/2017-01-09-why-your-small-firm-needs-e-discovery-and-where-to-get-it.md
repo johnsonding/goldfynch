@@ -58,7 +58,7 @@ So, we’ve made sure that with GoldFynch:
 - **Signup is absolutely frictionless. **You get to try out the software for free. To get started, all you need is an email address. (You’ll need a credit card only if you want a premium case). There is no need for quotes, RFP, RFI etc. Just use it! 
 - **You get all the features with your starter free case **and data up to 1 GB.** **
 
-[Find out more about  GoldFynch](https://goldfynch.com/).
+[Find out more about GoldFynch](https://goldfynch.com/).
 
 ### Whatever your E-Discovery solution, keep the following in mind..
 
@@ -73,5 +73,5 @@ So, we’ve made sure that with GoldFynch:
 - Read about the proposed solutions in the comments section of the blog post [EDna: Still Cheap and Challenged](https://ballinyourcourt.wordpress.com/2016/04/15/edna-still-cheap-and-challenged/).  
 - There is an [excellent summary ](https://blog.cluster-text.com/2016/04/22/highlights-from-the-aceds-2016-e-discovery-conference/)by Bill Dimm at Clustify, of the ACEDS 2016 E-Discovery Conference. 
 - The slides from the ACEDS presentation are available online for purchase through ACEDS. 
-- EDJ Group’s Greg Buckles [summarized a RFP](http://www.edjgroupinc.com/post/detail/1212)(membership required) he had issued with similar requirements as the EDna 2 challenge. 
+- EDJ Group’s Greg Buckles [summarized a RFP](http://www.edjgroupinc.com/post/detail/1212) (membership required) he had issued with similar requirements as the EDna 2 challenge. 
 
