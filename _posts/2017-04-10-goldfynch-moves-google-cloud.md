@@ -20,7 +20,7 @@ This <a href="https://medium.com/google-cloud/i-think-google-cloud-is-the-best-b
 If you want to know more about Google Cloud, just watch this video.
 
 
-{% youtube COhwhZjcjw0-Y %}
+{% youtube COhwhZjcjw0 %}
 
 
 Remember, Google Cloud is the infrastructure that Google leases to companies like us, not to be confused with Google Drive (which is a consumer product as a part of Google accounts). Google Cloud allows us to seamlessly and cost-effectively deliver services to our customers. With Google Cloud, we can utilize multi-region data centers, faster processors and advanced encryption. So your data is processed more quickly and stored more securely.
