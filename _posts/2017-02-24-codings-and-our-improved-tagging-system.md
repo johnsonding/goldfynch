@@ -6,7 +6,7 @@ tags: general new-features review
 author: "Anith Mathai"
 ---
 
-###We’ve created a new category of ‘tags’ called ‘codings’
+### We’ve created a new category of ‘tags’ called ‘codings’
 
 - A coding is a special tag that is pinned/unpinned (i.e. toggled on/off) by clicking its button. 
 
@@ -20,13 +20,13 @@ _Here, the first 4 buttons are codings the last green one is a regular tag. The 
 
 [**Note:** GoldFynch has had a ‘codings’ system for a while, but only for fixed categories. Our rebooted version is much more versatile.] 
 
-###You can apply codings as quickly as tags.
+### You can apply codings as quickly as tags.
 
 They’re in the tag pane, with one-click access.
 
 {% image 2017-02-24/unpinned-coding.png "Unpinned Coding" %}
 
-###You can convert a tag into a coding, and a coding into a tag.
+### You can convert a tag into a coding, and a coding into a tag.
 
 {% image 2017-02-24/convert-coding-to-tag.png "Convert Coding to Tag" %}
 
@@ -36,7 +36,7 @@ _Below, the first 4 tags are codings:_
 
 {% image 2017-02-24/coding-tags.png "Coding Tags" %}
 
-###You can unpin codings and remove tags in bulk.
+### You can unpin codings and remove tags in bulk.
 
 {% image 2017-02-24/unpin-codings-and-remove-tags.png "Unpin Codings and Remove Tags" %}
 
@@ -44,7 +44,7 @@ _Below, the first 4 tags are codings:_
 
 {% image 2017-02-24/tag-deletion-confirmation.png "Tag Deletion Confirmation" %}
 
-###We have also created ‘auto tags’.
+### We have also created ‘auto tags’.
 
 They are managed by GoldFynch, so you cannot add/remove/edit them. 
 
