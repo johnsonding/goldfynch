@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GoldFynch moves to Google Cloud"
-date: 2017-4-10 10:00:00
+date: 2017-04-10 10:00:00
 tags: updates google-cloud storage
 author: "Anith Mathai"
 ---
@@ -15,7 +15,7 @@ Along with the benefits of added performance while uploading, downloading and pr
 If you have any questions feel free to email us at <a href="mailto:support@goldfynch.com" target="_top">support@goldfynch.com</a>
 
 ### Interested in cloud providers comparison?
-This <a href="https://medium.com/google-cloud/i-think-google-cloud-is-the-best-best-tech-best-pricing-best-support-best-roadmap-and-best-4b4e17856505">article</a> on Medium does an excellent job summarizing the differences between the various cloud providers.
+This <a href="https://medium.com/google-cloud/i-think-google-cloud-is-the-best-best-tech-best-pricing-best-support-best-roadmap-and-best-4b4e17856505" target="_blank">article</a> on Medium does an excellent job summarizing the differences between the various cloud providers.
 
 If you want to know more about Google Cloud, just watch this video.
 
