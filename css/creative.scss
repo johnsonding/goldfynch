@@ -1815,7 +1815,7 @@ fieldset[disabled] .btn-dark-brd {
         color: white;
     }
 
-    form {
+    .main-links {
         padding-top: 40px;
         .hint {
             padding: 5px 0;
@@ -1827,7 +1827,13 @@ fieldset[disabled] .btn-dark-brd {
             border-radius: 3px;
             font-size: 16px;
             color: $blue-charcoal;
-            padding: 15px 0;
+            padding: 10px 0;
+
+            &.border-only {
+                background-color: transparent;
+                border: 1px solid $theme-primary;
+                color: $theme-primary;
+            }
         }
     }
 
