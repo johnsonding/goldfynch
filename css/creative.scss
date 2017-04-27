@@ -1749,9 +1749,8 @@ fieldset[disabled] .btn-dark-brd {
         padding: 20px;
 
         img {
-            height: 128px;
-            width: auto;
-            color: blue;
+            width: 100px;
+            height: auto;
         }
 
         i {
@@ -2116,6 +2115,10 @@ fieldset[disabled] .btn-dark-brd {
                 display: block;
                 margin: 10px auto;
             }
+
+            @media(max-width: 768px) {
+                font-size: 30px;
+            }
         }
 
         p.sub {
@@ -2128,13 +2131,19 @@ fieldset[disabled] .btn-dark-brd {
             @media (max-width: 768px) {
                 padding-left: 30px;
                 padding-right: 30px;
+                font-size: 18px;
             }
         }
     }
 
     .row {
-        @media (min-width: 768px) {
-            display: table;
+        @media (max-width: 768px) {
+            //display: table;
+            padding: 20px !important;
+
+            img {
+                width: 94px !important;
+            }
         }
 
         &:nth-child(even) {
@@ -2146,13 +2155,19 @@ fieldset[disabled] .btn-dark-brd {
                 display: table-cell;
                 vertical-align: middle;
                 float: none !important;
+
             }
         }
+
     }
 
     .feature-text {
         h2 {
             color: $blue-charcoal;
+
+            @media(max-width: 768px) {
+                font-size: 20px;
+            }
         }
 
         p {
@@ -2204,6 +2219,10 @@ fieldset[disabled] .btn-dark-brd {
             padding-top: 20px !important;
             padding-bottom: 0px !important;
         }
+    }
+
+    @media (max-width: 1198px) {
+        padding: 40px 0 !important;
     }
 }
 

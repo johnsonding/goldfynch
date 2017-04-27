@@ -22,5 +22,8 @@ Take advantage of the advanced GoldFynch date identification capabilities to sea
 
 Pro Tip: Date formats show up in the search query box when you type in a year.
 Go ahead and give it a try, its live in GoldFynch right now.
+
+{% youtube nynhr_8DaYU %}
+
 Have a feature or feedback? Enter it [here](https://goldfynch.com/feature-request/).
 
