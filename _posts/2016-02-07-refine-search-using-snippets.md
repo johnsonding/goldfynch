@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Refine Your Search Using "Snippets""
+title: "Refine Your Search Using 'Snippets'"
 date: 2016-02-07 13:03:00
 tags: new-features search user-experience
 author: "Ross Johnson"
