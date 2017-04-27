@@ -6,5 +6,5 @@ tags: new-features
 author: "Anith Mathai"
 ---
 
-We've added HTML and TXT file formats to our existing arsenal of [supported file formats](https://goldfynch.com/faq/). With HTML files we render the file in the docs view window, so you always see the rendered view. TXT or text files are displayed as PDFs in the Docs view. Remember you can always download the native file from the production menu.
+We've added HTML and TXT file formats to our existing arsenal of [supported file formats](https://goldfynch.com/faq.html). With HTML files we render the file in the docs view window, so you always see the rendered view. TXT or text files are displayed as PDFs in the Docs view. Remember you can always download the native file from the production menu.
 
