@@ -16,17 +16,17 @@ Use our _password list_ to enter all your passwords (you can copy-paste them i
 
 ### Here’s how to use our password list:
 
-1. **Choose the ‘files’ tab to view all your uploaded files**. The password-protected ones have a little lock symbol next to them.
+1.**Choose the ‘files’ tab to view all your uploaded files**. The password-protected ones have a little lock symbol next to them.
 
 {% image 2016-08-18/choose-the-file.png "Choose the Files" %}
 
-2. **Click on a password-protected file.** The ‘password list’ will open.
+2.**Click on a password-protected file.** The ‘password list’ will open.
 
 {% image 2016-08-18/passwords-list.png "Passwords List" %}
 
-3. **Enter the file’s password** **and save it.** You can copy-paste a list of passwords too: A new line for each password.
+3.**Enter the file’s password** **and save it.** You can copy-paste a list of passwords too: A new line for each password.
 
 {% image 2016-08-18/passwords-list-save.png "Passwords List Save" %}
 
-4. **Now the protected file will open automatically** when you click it.
+4.**Now the protected file will open automatically** when you click it.
 
