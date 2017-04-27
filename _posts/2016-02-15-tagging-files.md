@@ -20,7 +20,7 @@ Or, you can apply tags to groups of files. Select multiple files using the check
 
 When tags are applied, an abbreviated tag name is displayed next to the file name in Files. You can expand the full name of the tag by scrolling over the abbreviation.
 
-{% image 2016-02-15/goldfynch-tagging-3.gif "GoldFynch Tagging File" %}
+{% image 2016-02-15/goldfynch-tagging-3.png "GoldFynch Tagging File" %}
 
 You can see all the files with a specific tag in Tags.
 
