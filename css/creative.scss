@@ -3,11 +3,37 @@
 
 @import "variables.scss";
 @import "mixins.scss";
+@import "font.css";
 
 @import url('https://fonts.googleapis.com/css?family=Bitter');
 
 $link-blue: #1E9AEE;
 $blue-charcoal: #272C31;
+
+$color-yellow: #FFBE0B;
+$color-orange: #FB5607;
+$color-blue: #1198ED;
+$color-indigo: #804FFF;
+
+.color-yellow {
+    color: $color-yellow !important;
+}
+
+.color-orange {
+    color: $color-orange !important;
+}
+
+.color-blue {
+    color: $color-blue !important;
+}
+
+.color-indigo {
+    color: $color-indigo !important;
+}
+
+.icon100 {
+    font-size: 100px !important;
+}
 
 // Global Components
 html,
@@ -2156,7 +2182,7 @@ fieldset[disabled] .btn-dark-brd {
             background-color: #f8f8f8;
         }
 
-        .col-sm-4,.col-sm-6,.col-sm-8 {
+        .col-sm-4,.col-sm-8 {
             @media (min-width: 768px) {
                 display: table-cell;
                 vertical-align: middle;
@@ -2358,6 +2384,54 @@ fieldset[disabled] .btn-dark-brd {
                 font-size: 15px;
                 line-height: 1.2;
             }
+        }
+    }
+}
+
+.section-outro {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: lighten($color-blue, 47%);
+
+    p {
+        padding: 5px;
+    }
+
+    .fancy-underline {
+        border-bottom: 1px dashed $color-blue;
+    }
+
+    a {
+        background-color: $color-blue;
+        padding: 10px 20px;
+        color: white !important;
+        border-radius: 4px;
+
+        &:after {
+            content: ' »';
+        }
+    }
+}
+
+#testimonials {
+    .testimonial {
+        &:before {
+            content: "❝";
+            position: absolute;
+            left: 10px;
+            top: 0;
+            font-size: 150px;
+            opacity: 0.5;
+            color: #eee;
+            z-index: -20;
+            font-style: normal;
+        }
+        font-family: 'Bitter', Serif;
+        padding: 40px 80px;
+        color: #666;
+
+        p {
+            font-size: 20px;
         }
     }
 }
