@@ -5,7 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.excerpt == "" or page.excerpt == nil %}
     <meta name="description" content="{{ site.description }}">
+    {% else %}
+    <meta name="description" content="{{ page.excerpt | remove: '<p>' | remove: '</p>' }}">
+    {% endif %}
+
     <meta name="author" content="Mazira, LLC">
 	<meta name="keywords" content="ediscovery, SaaS, Cloud based ediscovery, legal, software, small and solo practices ">
 
@@ -32,7 +37,18 @@
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Oxygen:300,400' rel='stylesheet' type='text/css'>
 
-    <title>{{ site.title }}</title>
+
+        <title>
+          {% if page.title == "" or page.title == nil %}
+          {{ site.title }}
+          {% else %}
+          {{ page.title }}
+          {% endif %}
+
+          {% if layout.title_postfix != "" and layout.title_postfix != nil %}
+          - {{ layout.title_postfix }}
+          {% endif %}
+        </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{site.url}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +72,6 @@
 </head>
 
 <body id="page-top">
-
     <nav id="mainNav" class="navbar navbar-default {{layout.blog_header_class}} {{page.additional_header_classes}}">
         <div class="container">
             <div class="navbar-header">
