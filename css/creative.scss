@@ -1006,14 +1006,6 @@ footer hr {
 
 .pricing-page {
 
-	height: 350px;
-
-    background-position: center top;
-    background-image: url('../img/pricing/pricing.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-	background-size: auto;
-
 	.pricing-title {
 		padding-top: 50px;
 		font-family: 'Ubuntu', sans-serif;
@@ -1022,17 +1014,70 @@ footer hr {
 	}
 }
 
-.pricing-subtitle {
-	@include bg-color-sky-light-mixin;
+
+.pricing-cell {
+    text-align: center;
+    h3 {
+        font-size: 16px;
+        padding: 5px;
+        border-bottom: 1px solid #f3f3f3;
+        color: #999;
+        white-space: nowrap;
+
+
+        @media(max-width: 768px) {
+            font-size: 14px;
+        }
+    }
+
+    h4 {
+        font-size: 40px;
+        min-height: 70px;
+        color: $blue-charcoal;
+
+        @media(max-width: 768px) {
+            min-height: 50px;
+            font-size: 20px;
+        }
+
+        &.yes {
+            &:before {
+                font-family: FontAwesome;
+                content: '\f00c';
+                color: #1198ED;
+            }
+        }
+
+        &.restricted {
+            &:after {
+                color: #999;
+                content: 'Includes \"Produced with GoldFynch\" stamp.';
+                display: block;
+                font-size: 12px;
+            }
+        }
+
+        &.no {
+            &:before {
+                font-family: FontAwesome;
+                content: '\f068';
+                color: #ccc;
+                             
+            }
+        }
+    }
 }
 
-.bg-color-sky-light {
-    @include bg-color-sky-light-mixin;
+.price-slider-container {
+    padding: 30px 0px 50px 0;
+
+    .noUi-handle {
+        background: #1198ED;
+        box-shadow: none !important;
+    }
 }
 
-.pricing-list {
-	margin-top: -150px;
-}
+
 
 /*--------------------------------------------------
     [Gutter]
@@ -1905,7 +1950,7 @@ fieldset[disabled] .btn-dark-brd {
 
 }
 
-#benefits {
+#benefits, #pricing-widget {
     h2 {
         text-align: center;
         font-size: 40px;
@@ -1930,6 +1975,7 @@ fieldset[disabled] .btn-dark-brd {
         @media (max-width: 768px) {
             padding-left: 30px;
             padding-right: 30px;
+            line-height: 1.5;
         }
     }
 }
