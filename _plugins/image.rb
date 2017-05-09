@@ -9,7 +9,7 @@ class Image < Liquid::Tag
       @alt = $2
 
       if $3.nil? then
-          @width = 560
+          @width = nil
       else
           @width = $3.to_i
       end
@@ -21,7 +21,11 @@ class Image < Liquid::Tag
   def render(context)
     # "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}\" frameborder=\"0\"allowfullscreen></iframe>"
     image_path = context.registers[:site].config['url'] + "/assets/" + @file
-    "<img src=\"#{image_path}\" alt=#{@alt} width=\"#{@width}\" class=\"img-rounded\">"
+    if @width.nil? then
+      "<img src=\"#{image_path}\" alt=#{@alt} class=\"img-rounded img-responsive\">"
+    else
+      "<img src=\"#{image_path}\" alt=#{@alt} width=\"#{@width}\" class=\"img-rounded\">"
+    end
   end
 
   Liquid::Template.register_tag "image", self
