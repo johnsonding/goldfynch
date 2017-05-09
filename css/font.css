@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ddmc77');
-  src:  url('fonts/icomoon.eot?ddmc77#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ddmc77') format('truetype'),
-    url('fonts/icomoon.woff?ddmc77') format('woff'),
-    url('fonts/icomoon.svg?ddmc77#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?b35q0m');
+  src:  url('fonts/icomoon.eot?b35q0m#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?b35q0m') format('truetype'),
+    url('fonts/icomoon.woff?b35q0m') format('woff'),
+    url('fonts/icomoon.svg?b35q0m#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-seamless:before {
+  content: "\e913";
+}
+.icon-completely_cloud:before {
+  content: "\e914";
+}
+.icon-zero_learning_curve:before {
+  content: "\e915";
+}
+.icon-duplicates:before {
+  content: "\e916";
+}
+.icon-ocr:before {
+  content: "\e917";
+}
+.icon-review:before {
+  content: "\e918";
+}
+.icon-upload_download:before {
+  content: "\e912";
+}
 .icon-file_type_support:before {
   content: "\e900";
 }
