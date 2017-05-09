@@ -37,18 +37,11 @@
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Oxygen:300,400' rel='stylesheet' type='text/css'>
 
-
-        <title>
-          {% if page.title == "" or page.title == nil %}
-          {{ site.title }}
-          {% else %}
-          {{ page.title }}
-          {% endif %}
-
-          {% if layout.title_postfix != "" and layout.title_postfix != nil %}
-          - {{ layout.title_postfix }}
-          {% endif %}
-        </title>
+        {% if page.title == "" or page.title == nil %}
+        <title>{{ site.title }}{{ layout.title_postfix }}</title>
+        {% else %}
+        <title>{{ page.title }}{{ layout.title_postfix }}</title>
+        {% endif %}
 
     <!-- Bootstrap Core CSS -->
     <link href="{{site.url}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
