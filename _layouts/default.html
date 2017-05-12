@@ -80,7 +80,7 @@
             <div class="navbar-header">
               <div>
                 <div>
-                  <a class="navbar-brand" href="./index.html"><img class="goldfynch-logo" src="{{site.url}}/img/logo_square.png" style="float:left;" align="bottom">
+                  <a class="navbar-brand" href="./index.html"><img class="goldfynch-logo" src="{{site.url}}/img/logo_square.png" style="float:left;" align="bottom">;
                     GoldFynch
                   </a>
                 </div>
@@ -161,17 +161,59 @@
     <script src="{{site.url}}/vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="{{site.url}}/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript">
+     // link all video links
+     $(document).ready(function() {
+         function onPlayerStateChange(event) {
+             if (event.data == YT.PlayerState.ENDED) {
+                 $.magnificPopup.close();
+             }
+         }
+
+         $(".how-it-works").magnificPopup({
+             type:'iframe',
+             iframe: {
+                 markup: '<div class="mfp-iframe-scaler">'+
+                         '<div class="mfp-close"></div>'+
+                         '<iframe id="player" class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                         '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+                 patterns: {
+                     youtube: {
+                         index: 'youtube.com/',
+                         id: 'v=',
+                         src: '//www.youtube.com/embed/%id%?rel=0&autoplay=1&enablejsapi=1'
+                     }
+                 },
+                 srcAction: 'iframe_src',
+             },
+             callbacks: {
+                 open: function () {
+                     new YT.Player('player', {
+                         events: {
+                             'onStateChange': onPlayerStateChange
+                         }
+                     });
+                 }
+             },
+             midClick: true,
+             closeOnBgClick: false,
+             removalDelay: 500,
+             mainClass: 'mfp-fade mfp-video'
+         });
+     });
+    </script>
     <!-- Theme JavaScript -->
     <!-- <script src="{{site.url}}/js/creative.js"></script> -->
 
     <!-- Start of Async HubSpot Analytics Code -->
     <script type="text/javascript">
-        (function(d,s,i,r) {
-            if (d.getElementById(i)){return;}
-        var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
-        n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/2174797.js';
-        e.parentNode.insertBefore(n, e);
-        })(document,"script","hs-analytics",300000);
+     (function(d,s,i,r) {
+         if (d.getElementById(i)){return;}
+         var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+         n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/2174797.js';
+         e.parentNode.insertBefore(n, e);
+     })(document,"script","hs-analytics",300000);
     </script>
     <!-- End of Async HubSpot Analytics Code -->
     <!-- Start of Google Analytics Code -->
