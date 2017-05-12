@@ -1343,7 +1343,7 @@ fieldset[disabled] .btn-dark-brd {
 .services-page {
 
 	height: 350px;
-
+	
     background-position: center top;
     background-image: url('../img/blog/blog.jpg');
     background-repeat: no-repeat;
@@ -2398,9 +2398,9 @@ fieldset[disabled] .btn-dark-brd {
 
 .gf-blog-post-index {
     .gf-blog-post-index-item {
-        padding: 20px 0;
+        padding: 20px 0px;
         &:first-child {
-            padding-top: 0;
+            padding-top: 25px;
         }
         
         h3 {
