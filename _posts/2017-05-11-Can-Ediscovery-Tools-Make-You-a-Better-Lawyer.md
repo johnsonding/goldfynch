@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Can Ediscovery Tools Make You a Better Lawyer?"
-date: 2017-05-12 10:00:00
+date: 2017-05-11 10:00:00
 tags: ediscovery
 author: "Anith Mathai"
 ---
