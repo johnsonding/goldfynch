@@ -1343,19 +1343,22 @@ fieldset[disabled] .btn-dark-brd {
 .services-page {
 
 	height: 350px;
-	margin-bottom: 100px;
 
     background-position: center top;
-    background-image: url('../img/features/features.png');
+    background-image: url('../img/blog/blog.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-	background-size: auto;
+	background-size: 2000px;
+	
+    @media (max-width: 850px) {
+        background-size: 1800px;
+    }
 
 	.services-title {
 		padding-top: 50px;
 		font-family: 'Ubuntu', sans-serif;
 		color: white;
-		font-size: 50px;
+		font-size: auto;
 	}
 }
 
