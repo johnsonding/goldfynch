@@ -4,6 +4,7 @@ title: "e-Discovery and Document Review: An Introduction"
 date: 2016-01-22 08:45:00
 tags: general search
 author: "Anith Mathai"
+excerpt: "E-Discovery or document review , are broad terms used to describe the collection of documents in an electronic format followed by a search for information within those documents."
 ---
 
 Buzzwords and acronyms. They’re everywhere, and they’re probably here to stay. The words and acronyms themselves may fade away into obsolescence, but the fact is that it’s getting harder to know a lot about a lot. Most of us are relegated to knowing a lot about a few things. Here at GoldFynch, we know a lot about e-Discovery/Document Review.

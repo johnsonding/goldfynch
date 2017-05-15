@@ -4,6 +4,7 @@ title: "Search By Date Range"
 date: 2016-05-01 10:45:00
 tags: new-features search user-experience
 author: "John Ding"
+excerpt: "Take advantage of GoldFynch's date identification capabilities to search for documents via date ranges. It can identify many different date formats."
 ---
 
 Take advantage of the advanced GoldFynch date identification capabilities to search for documents via date ranges. During the processing process GoldFynch automatically scans all documents for mentions of dates. It can identify a number of different date formats, e.g. April 2002, 04/01/2002 etc. You can now search for all the documents that fall within a certain range by simply entering the range of dates in this format in the search bar- "Start Date" - "End Date" . The start and end dates can be in any date formatting. We have some examples below. Remember when typing into the search bar GoldFynch will make some auto suggestions. To use the date range feature, select the date query (in green)

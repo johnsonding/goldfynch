@@ -4,6 +4,7 @@ title: "Ediscovery: How it Works, and Why It Will Help Keep Your Small Law Firm 
 date: 2017-05-10 10:00:00
 tags: ediscovery
 author: "Anith Mathai"
+excerpt: "Don’t know about ediscovery? It’s the next big thing for small law firms. Here’s how it works and why you need it."
 ---
 
 ### Ediscovery is the next big thing for small law firms 

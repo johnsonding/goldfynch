@@ -4,6 +4,7 @@ title: "GoldFynch Updates"
 date: 2016-02-29 19:12:00
 tags: new-features search user-experience
 author: "Anith Mathai"
+excerpt: "Latest updates to GoldFynch. Including duplicate detection, upload improvements and bulk tagging."
 ---
 
 ### UPLOAD

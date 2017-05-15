@@ -4,6 +4,7 @@ title: "New Issues Page for Error Alerts"
 date: 2016-09-09 22:17:00
 tags: general new-features error
 author: "John Ding"
+excerpt: "We’ve created an Issues page to show error alerts."
 ---
 
 ### We’ve created an _Issues_ page to show error alerts.

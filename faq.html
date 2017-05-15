@@ -6,7 +6,7 @@ layout: default
 <section class="faq-page" id="page-top">
 	<div class="container">
 		<div class="text-center">
-			<h1 class="faq-title">We got Answers</h1>
+			<h1 class="faq-title">Frequently Asked Questions</h1>
 		</div>
 	</div>
 </section>
@@ -327,4 +327,13 @@ layout: default
 			</a>
 		</div>
 	</div>
+
+        <script>
+         // If there are any faq links on this page then turn them into links
+         $(function() {
+             $("a.faq-item").attr("href", "javascript:void(0)").click(function() {
+                 $(this).find(".body").slideToggle();
+             });
+         });
+        </script>
 </div>

@@ -4,6 +4,7 @@ title: "Exporting emails from Gmail"
 date: 2016-03-13 15:26:00
 tags: general
 author: "Ross Johnson"
+excerpt: "This article shows you how to export email from GMail."
 ---
 
 We get this question a lot. Probably because there isn’t an explicit “export” option within the Gmail web interface. It’s gotten much easier to export emails from Gmail. Until [recently](http://www.pcworld.com/article/2068494/google-finally-lets-you-download-your-gmail-and-calendar-data-heres-how.html), there wasn’t even a way to export email out of Gmail. In the early days we had to tell clients all kinds of convoluted methods to export their email, including connecting to an Outlook email box and exporting to PST. Thankfully, you can now export directly to mbox, a format that GoldFynch supports.

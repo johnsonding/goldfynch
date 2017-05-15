@@ -4,6 +4,7 @@ title: "Why Your E-Discovery Software Needs To Have OCR"
 date: 2016-12-20 10:55:00
 tags: general search OCR e-discovery optical-character-recognition
 author: "John Ding"
+excerpt: "OCR (Optical Character Recognition) is software that converts scanned documents into text files for searching. GoldFynch has OCR built in, unlimited and included in all plans."
 ---
 
 {% image 2016-12-20/goldfynch-ocr.jpg "GoldFynch Built-In OCR" %}

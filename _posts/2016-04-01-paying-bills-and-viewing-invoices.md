@@ -4,6 +4,7 @@ title: "Paying Bills and Viewing Invoices"
 date: 2016-04-01 19:59:00
 tags: new-features general
 author: "Anith Mathai"
+excerpt: "Pay for your GoldFynch cases securely with our Stripe credit card payment integration. Calculation of case billing is prorated on an hourly basis."
 ---
 
 Now you can pay for your premium GoldFynch cases directly from the GoldFynch app. We have integrated a payment system using [Stripe](https://stripe.com/). All the payment processing is done through the Stripe service, which is kind of like having paying directly at the bank. Since we don't store any credit card information on GoldFynch, your payment information is secure. Read more about the security [here](https://stripe.com/us/features#seamless-security).

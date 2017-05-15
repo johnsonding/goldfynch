@@ -4,6 +4,7 @@ title: "How to Land a Big Case as a Small Law Firm"
 date: 2017-05-11 10:00:00
 tags: ediscovery
 author: "Anith Mathai"
+excerpt: "Landing big cases is a challenge for small and solo law firms. Here are some useful tips on how to get your next big client."
 ---
 
 ### Landing big cases is a challenge for small and solo law firms. 

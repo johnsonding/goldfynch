@@ -4,6 +4,7 @@ title: "How to Pay Your GoldFynch Invoice"
 date: 2016-07-20 06:18:00
 tags: general payment
 author: "Anith Mathai"
+excerpt: "Learn how to pay your monthly GoldFynch invoice in 3 easy steps."
 ---
 
 Pay your monthly GoldFynch invoice in 3 easy steps: 

@@ -4,6 +4,7 @@ title: "Going Paperless: How to modernize your small law firm"
 date: 2017-05-11 10:00:00
 tags: ediscovery
 author: "Anith Mathai"
+excerpt: "Going paperless isn’t about looks. It’s about saving money and being efficient. Learn about the tools that will help your small law firm go paperless.  "
 ---
 
 ### Imagine walking into an office filled with paper. 

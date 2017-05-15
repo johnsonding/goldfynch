@@ -4,6 +4,7 @@ title: "Exact Duplicate Detection a.k.a Identical File Detection"
 date: 2016-02-29 20:45:00
 tags: new-features user-experience
 author: "Anith Mathai"
+excerpt: "Our duplicate file detection system detects exact file duplicates already uploaded."
 ---
 
 If you're worried about uploading a file that's already in your case in GoldFynch, have no fear: Exact Duplicate Detection is here.

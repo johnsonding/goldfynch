@@ -4,6 +4,7 @@ title: "Why Your Small Firm Needs E-Discovery, and Where to Get It"
 date: 2017-01-17 08:07:00
 tags: general e-discovery
 author: "Anith Mathai"
+excerpt: "Unlike other ediscovery software, GoldFynch scales for large and small firms. Your firm can now use affordable ediscovery software for any case."
 ---
 
 

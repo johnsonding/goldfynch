@@ -4,6 +4,7 @@ title: "Uploading Folders"
 date: 2016-01-29 12:15:00
 tags: new-features user-experience
 author: "John Ding"
+excerpt: "To upload whole folders to GoldFynch, drag ‘n drop the folder from your Windows explorer or Finder (Mac) window onto the files view in GoldFynch."
 ---
 
 You can now upload whole folders directly to GoldFynch. Just drag and drop the folder from your Windows explorer (Windows) or Finder (Mac) window directly onto the files view in GoldFynch. Remember you can only upload when you have the files view selected.  

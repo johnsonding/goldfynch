@@ -4,6 +4,7 @@ title: "Document Production In GoldFynch"
 date: 2016-09-20 18:05:00
 tags: general new-features production
 author: "Ross Johnson"
+excerpt: "Ediscovery production of files in GoldFynch is designed to be simple. It is handled by a production wizard that will walk you through all the steps."
 ---
 
 ### Production in GoldFynch

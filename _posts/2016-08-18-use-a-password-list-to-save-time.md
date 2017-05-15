@@ -4,6 +4,7 @@ title: "Use a Password List to Save Time"
 date: 2016-08-18 07:10:00
 tags: general new-features password
 author: "Anith Mathai"
+excerpt: "Use our password list to enter passwords for restricted files and GoldFynch will automatically find and use the right one when needed."
 ---
 
 ### Are password-protected files slowing you down?

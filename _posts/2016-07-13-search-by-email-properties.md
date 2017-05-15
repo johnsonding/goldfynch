@@ -4,6 +4,7 @@ title: "Search by Email Properties"
 date: 2016-07-13 21:58:00
 tags: new-features search email
 author: "John Ding"
+excerpt: "Learn more about how Goldfynch lets you search for emails using the ‘subject’, ‘to’, ‘cc’ or ‘bcc’ email fields (email meta data)."
 ---
 
 Trying to find all emails to do with a particular series of meetings? Or those to/from a specific person? Goldfynch lets you search for them using the ‘subject’, ‘to’, ‘cc’ or ‘bcc’ email fields.

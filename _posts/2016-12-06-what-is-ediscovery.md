@@ -4,6 +4,7 @@ title: "What Is Ediscovery (Or E-Discovery)?"
 date: 2016-12-06 15:23:00
 tags: general e-discovery ediscovery
 author: "John Ding"
+excerpt: "Ediscovery (electronic discovery) is collecting, sharing, and searching electronically stored information (ESI) – e.g. Word files, PDFs, emails, etc."
 ---
 
 {% image 2016-12-06/goldfynch-ediscovery.jpg "GoldFynch E-Discovery" %}

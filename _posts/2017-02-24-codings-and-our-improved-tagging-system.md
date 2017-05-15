@@ -4,6 +4,7 @@ title: "Codings' and Our Improved Tagging System"
 date: 2017-02-24 14:35:00
 tags: general new-features review
 author: "Anith Mathai"
+excerpt: "Tags and codings are user defined labels to help organize files. This article explains how to use tags and codes in GoldFynch for review."
 ---
 
 ### We’ve created a new category of ‘tags’ called ‘codings’

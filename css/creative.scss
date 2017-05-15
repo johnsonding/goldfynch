@@ -957,7 +957,7 @@ footer hr {
 }
 
 .footer-text {
-	line-height: 0.7;
+	line-height: 1.5;
 	font-size: 14px;
 }
 
@@ -1285,25 +1285,30 @@ fieldset[disabled] .btn-dark-brd {
   margin-right: 3px;
 }
 
+.pricing-footer-notes {
+    h4,h5 {
+        line-height: 1.5;
+    }
+}
+
 
 // faq page
 
 .faq-page {
 
-	height: 350px;
-	margin-bottom: 100px;
+    //height: 150px;
+    //margin-bottom: 100px;
 
-    background-position: center top;
-    background-image: url('../img/faq/faq.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-	background-size: auto;
+    background-color: $blue-charcoal;
+    padding: 50px !important;
 
 	.faq-title {
-		padding-top: 50px;
 		font-family: 'Ubuntu', sans-serif;
 		color: white;
 		font-size: 50px;
+
+                padding: 20px !important;
+                margin: 0 !important;
 	}
 }
 
@@ -1752,6 +1757,8 @@ fieldset[disabled] .btn-dark-brd {
 }
 
 .faq-container {
+    margin-top: 40px;
+
     h3 {
         text-transform: uppercase;
         font-weight: 400;

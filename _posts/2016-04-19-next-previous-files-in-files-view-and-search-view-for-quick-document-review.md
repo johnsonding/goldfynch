@@ -4,6 +4,7 @@ title: "Next / Previous files in Files View and Search View for Quick Document R
 date: 2016-04-19 21:32:00
 tags: new-features search user-experience general file-types
 author: "Anith Mathai"
+excerpt: "Documents can be reviewed quickly by clicking Next Document or Previous Document while in Doc View."
 ---
 
 Documents can be reviewed quickly by clicking "Next Document" or "Previous Document" while in _Doc View_. You can easily navigate between subsequent or previous documents within a folder or when paging through search results.

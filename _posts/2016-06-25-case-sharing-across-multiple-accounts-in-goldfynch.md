@@ -4,6 +4,7 @@ title: "Case Sharing Across Multiple Accounts in GoldFynch"
 date: 2016-06-25 11:10:00
 tags: new-features sharing
 author: "Ross Johnson"
+excerpt: "With Case Sharing, you now have the ability to open a case in one account and share it with another user in a different account."
 ---
 
 ### Introducing: Case Sharing Across Multiple Goldfynch Accounts

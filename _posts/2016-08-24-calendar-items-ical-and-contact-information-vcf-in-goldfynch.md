@@ -4,6 +4,7 @@ title: "Calendar Items (.Ical) And Contact Information (.Vcf) In Goldfynch"
 date: 2016-08-24 07:10:00
 tags: general new-features file-types
 author: "John Ding"
+excerpt: "iCalendar files (iCALs) and Virtual Contact Files (VCFs): now supported by GoldFynch."
 ---
 
 ### _iCalendar files (iCALs) and Virtual Contact Files (VCFs): now supported by GoldFynch._

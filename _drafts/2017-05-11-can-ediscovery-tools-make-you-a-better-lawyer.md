@@ -4,6 +4,7 @@ title: "Can Ediscovery Tools Make You a Better Lawyer?"
 date: 2017-05-11 10:00:00
 tags: ediscovery
 author: "Anith Mathai"
+excerpt: "As a lawyer in a small firm, ediscovery can give you tools to improve your performance in 4 key ways."
 ---
 
 ### What is ediscovery? Is it any different from what I already do?

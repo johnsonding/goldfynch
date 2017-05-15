@@ -4,6 +4,7 @@ title: "Is Your Clients’ Data Safe? Cloud Computing to the Rescue for Small La
 date: 2017-05-11 10:00:00
 tags: ediscovery
 author: "Anith Mathai"
+excerpt: "Is your firm using cloud-computing? If not, here’s why it’s the safest way to store your clients’ data."
 ---
 
 ### As an attorney in a small law firm, you deal with a lot of data. 

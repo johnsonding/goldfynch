@@ -4,6 +4,7 @@ title: "Redaction in GoldFynch"
 date: 2016-04-13 17:31:00
 tags: new-features user-experience general
 author: "John Ding"
+excerpt: "Redaction in GoldFynch refers to the process of removing sensitive information from a document prior to production. GoldFynch has multiple ways to redact."
 ---
 
 **Redaction** (also called **sanitization**) in GoldFynch refers  to the process of removing sensitive information from a document prior to production.

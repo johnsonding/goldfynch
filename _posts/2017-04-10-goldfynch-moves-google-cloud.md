@@ -4,6 +4,7 @@ title: "GoldFynch moves to Google Cloud"
 date: 2017-04-10 10:00:00
 tags: updates google-cloud storage
 author: "Anith Mathai"
+excerpt: "We’ve switched over to Google Cloud Storage. Performance benefits improve uploading, downloading and file processing speeds. Google Cloud Storage provides us more security and auditing capabilities."
 ---
 
 

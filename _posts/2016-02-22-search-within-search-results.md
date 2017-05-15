@@ -4,6 +4,7 @@ title: "Search Within Search Results"
 date: 2016-02-22 09:12:00
 tags: new-features search
 author: "John Ding"
+excerpt: "Compare the GoldFynch search experience to Google. When you search in GoldFynch, you can search within results."
 ---
 
 Google is awesome at search.  

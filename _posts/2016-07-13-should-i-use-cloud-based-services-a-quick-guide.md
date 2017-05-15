@@ -4,6 +4,7 @@ title: "Should I Use Cloud-Based Services? A Quick Guide"
 date: 2016-07-13 23:27:00
 tags: general
 author: "Anith Mathai"
+excerpt: "Many firms are shifting towards the cloud. Follow security best practices when using the Cloud."
 ---
 
 {% image 2016-07-13/goldfynch-cloud.jpg "GoldFynch Cloud" %}

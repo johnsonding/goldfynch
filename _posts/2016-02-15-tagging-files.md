@@ -4,6 +4,7 @@ title: "Tagging Files"
 date: 2016-02-15 17:34:00
 tags: file-types new-features user-experience
 author: "John Ding"
+excerpt: "Tags are short labels for files. Tags are useful for file review and production in GoldFynch."
 ---
 
 Think of a tag as a stamp or a sticky note on a file. It provides an additional method to categorize or call attention to individual documents or groups of files, but it doesn't affect the way the file is used in the GoldFynch app at all.

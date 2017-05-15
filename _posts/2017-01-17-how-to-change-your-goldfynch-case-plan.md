@@ -4,6 +4,7 @@ title: "How to Change Your GoldFynch Case Plan"
 date: 2017-01-17 08:07:00
 tags: general new-features
 author: "Anith Mathai"
+excerpt: "If you don't need all the storage your plan provides. GoldFynch, billing is prorated, so pay only what you use by upgrading and downgrading your case."
 ---
 
 ### GoldFynch is flexible! Upgrade or downgrade your case plan as needed.

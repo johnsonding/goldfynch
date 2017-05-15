@@ -4,6 +4,7 @@ title: "Load files: What are they? And do we still need them?"
 date: 2016-03-29 11:39:00
 tags: general user-experience load-files
 author: "Ross Johnson"
+excerpt: "Simply put, a load file is a really well organized text file. Load files are used by older software that still utilize legacy relational databases."
 ---
 
 Simply put, a load file is a really well organized text file. It contains information related to the connections between individual data elements and their corresponding slots in a database. 

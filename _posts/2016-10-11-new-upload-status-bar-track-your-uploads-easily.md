@@ -4,6 +4,7 @@ title: "New Upload Status Bar: Track Your Uploads Easily"
 date: 2016-10-11 09:25:00
 tags: general file-types new-features
 author: "Ross Johnson"
+excerpt: "GoldFynch handles a large range of file types; the uploads progress window shows the upload status of files sent to GoldFynch."
 ---
 
 ### Uploading in GoldFynch is so easy!
