@@ -36,7 +36,7 @@ Since we know exactly how much space you’ll be using, we can budget our resour
 
 Our new plan sizes offer the benefits of simple monthly billing, much lower costs and prorated price calculations.
  
- **Have feedback on our new plans? Or want to suggest a feature or improvement? Get in touch with us [support@goldfynch.com](mailto:%20support@goldfynch.com) **]
+ **Have feedback on our new plans? Or want to suggest a feature or improvement? Get in touch with us [support@goldfynch.com](mailto:%20support@goldfynch.com)**
  
 
 
