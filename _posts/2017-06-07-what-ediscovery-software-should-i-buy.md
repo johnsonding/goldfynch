@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Ediscovery Software Should I Buy? Ask These 4 Questions to Save Your Small Law Firm Time and Money."
-date: 2017-06-06 20:52:00
+date: 2017-06-07 09:22:00
 tags: ediscovery
 author: "Anith Mathai"
 excerpt: "Ediscovery is becoming affordable. But deciding which software to use is still tough. Ask yourself these 4 questions and save your small law firm time and money"
