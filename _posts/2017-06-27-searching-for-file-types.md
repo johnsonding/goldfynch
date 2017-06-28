@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Searching for file types (with extensions and MIME types)"
+title: "Searching for File Types (with Extensions and MIME Types)"
 date: 2017-06-27 20:29:00
 tags: ediscovery filetype search
 author: "John Ding"
