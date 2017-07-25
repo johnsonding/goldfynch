@@ -7,8 +7,6 @@ author: "Anith Mathai"
 excerpt: "Businesses today talk to each other through email. So, your clients are bound to come to you with PST files. What are they? And what do you do with them? Read on to find out."
 ---
 
-# What Are PST Files? As a Small Law Firm’s What do I need to do to Be Able to Handle Them?
-
 > Businesses today talk to each other through email. So, your clients are bound to come to you with PST files. What are they? And what do you do with them? Read on to find out. 
 
 ## What is a PST file?
