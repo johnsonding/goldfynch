@@ -2539,7 +2539,7 @@ fieldset[disabled] .btn-dark-brd {
 }
 
 .videoWrapperOuter { // for demo page header
-  max-width:640px; 
+  max-width:640px !important;
   margin-left:auto;
   margin-right:auto;
 }
