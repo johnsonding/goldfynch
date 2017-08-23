@@ -6,10 +6,10 @@ tags: ediscovery
 author: "Anith Mathai"
 excerpt: "How much should your small law firm be spending on ediscovery? In this article, we look at the the difference between the Ferrari and the Chevrolet Corvette, and what it can teach us about choosing ediscovery software."
 ---
-
-# Ferrari vs Corvette Ediscovery: Fast Cars Teach Small Law Firms a Valuable Lesson.   
+{% image 2017-07-19/goldfynch_corvette.jpg "Ferrari Ediscovery" %}
 
 > How much should your small law firm be spending on ediscovery? In this article, we look at the the difference between the Ferrari and the Chevrolet Corvette, and what it can teach us about choosing ediscovery software.  
+
 ## In the world of fast cars, there’s the Corvette and the Ferrari. 
 
 The Corvette driver is in love with speed. He wants a car that runs well and looks good. The Ferrari driver loves speed but also loves what it means to own a Ferrari. The social status it brings.  
