@@ -23,6 +23,7 @@ url: "https://goldfynch.com" # the base hostname & protocol for your site
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-feed
 
 # Build settings
 markdown: kramdown
