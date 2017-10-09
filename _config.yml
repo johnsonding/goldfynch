@@ -25,6 +25,7 @@ gems:
   - jekyll-paginate
   - jekyll-feed
 
+
 # Build settings
 markdown: kramdown
 paginate: 5
