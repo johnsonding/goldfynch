@@ -8,6 +8,7 @@ excerpt: "One of the most powerful features of electronic discovery (e-discovery
 ---
 
 > One of the most powerful features of electronic discovery (e-discovery or eDiscovery) is the ‘advanced search.’ Here, we explore how advanced searches work and how you can make the most of them.
+
 ## If you’ve tried eDiscovery, you know the power of its ‘search’ feature. 
 
 Building a case is a long process. So, it helps to have the right tools. Reading through thousands of documents to find the information you need wastes time. And it’s easy to get distracted along the way. With eDiscovery, you choose the right keywords and let your app find the files you need. 
@@ -37,7 +38,7 @@ Say you’re searching your case for emails to do with Sarah Palin. But with oth
 
 **But, here’s what you’ll be working with:** 
 
-![The best eDiscovery apps make advanced searches easy. No math. No equations. For example, here's what advanced searching with GoldFynch looks like. Just simple text boxes and 'drop-down' boxes. ](https://d2mxuefqeaa7sj.cloudfront.net/s_261DB0C5B04E3A148C23BF65B14F0358C8ECA745A6E5156E438C6B2E64818579_1506600014730_image.png)
+The best eDiscovery apps make advanced searches easy. No math. No equations. For example, here's what advanced searching with GoldFynch looks like. Just simple text boxes and 'drop-down' boxes. {% image 2017-08-01/advanced-search-Boolean-logic.png "GoldFynch Advanced Search" %}
 
 ## Here are some ‘advanced search’ basics. . . 
 
@@ -46,6 +47,7 @@ To do an advanced search, it’ll help to know what the Boolean operators mean a
 - ‘**Or’:** Searches for documents that have *any* of your keywords. E.g. Searching for *John OR Peter* gets you all emails with *either* “John” or “Peter” in them. 
 - ‘**And’:** Searches for documents that have *all* your keywords. E.g. Searching for *John AND Peter* will get you only the emails with *both* the words “John” and “Peter in them. 
 - ‘**Not’:** Searches for documents that *don’t* have your keyword. E.g. Searching for *John NOT Peter* gets you emails with the word “John” but *not* “Peter.” Use the ‘NOT’ operator to cut out irrelevant results. 
+
 ## Want to search your case faster? Try GoldFynch, for free!
 
 GoldFynch is eDiscovery software that makes it easy to find the documents you need. And the best thing is *your starter case is free!* So, test it without having to pay anything.   
@@ -63,9 +65,11 @@ GoldFynch is eDiscovery software that makes it easy to find the documents you ne
 - **It’s easy to use.** It’s highly intuitive, and you’ll learn how to use it in minutes. 
 - **It lets you do eDiscovery essentials**, like tagging files and redacting privileged information. ‘Producing’ files takes just a few clicks. 
 - **Most importantly, it’s affordable.** Just $10 a month for a basic case. That’s $25 less—every month—than the nearest comparable software. And hundreds of dollars cheaper than many others.
+
 ## Want to learn more about GoldFynch?
 - [**Visit GoldFynch.com**](https://goldfynch.com/)
 - [**See GoldFynch’s pricing**](https://goldfynch.com/pricing.html)
+
 ## For more about eDiscovery for small law firms, check out these articles.
 - [What eDiscovery Software Should I Buy? Ask These 4 Questions to Save Your Small Law Firm Time and Money.](https://goldfynch.com/blog/2017/06/07/what-ediscovery-software-should-i-buy.html)
 - [Ferrari vs Corvette eDiscovery: Fast Cars Teach Small Law Firms a Valuable Lesson](https://goldfynch.com/blog/2017/07/19/Ferrari-vs-Corvette-Ediscovery-Fast-Cars-Teach-Small-Law-Firms-a-Valuable-Lesson..html)

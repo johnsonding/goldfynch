@@ -7,7 +7,8 @@ author: "Anith Mathai"
 excerpt: "Advanced’ searching is about making a highly specific search. So, is your eDiscovery software's search engine 1) Able to handle complex searches, 2) Easy to use, 3) Fast, 4) Able to save/share searches"
 ---
 
-> ‘Advanced’ searching is about making a highly specific search. So, is your eDiscovery software's search engine 1) Able to handle complex searches, 2) Easy to use, 3) Fast, 4) Able to save/share searches?  
+‘Advanced’ searching is about making a highly specific search. So, is your eDiscovery software's search engine 1) Able to handle complex searches, 2) Easy to use, 3) Fast, 4) Able to save/share searches?  
+
 ## *Electronic* discovery (eDiscovery or e-discovery) beats regular ‘*paper*’ discovery in many ways. 
 
 For one, you can deal with digital data like emails and PDFs without having to print them out. eDiscovery also saves you space. Files that would fill multiple boxes (and sometimes rooms full of boxes) now fit in a small computer hard drive. 
@@ -68,16 +69,19 @@ GoldFynch is eDiscovery software that simplifies advanced searching. And the bes
 - You can save and share searches, via GoldFynch. 
 
 
-![With GoldFynch's advanced search, you don't write the equation the software will use (box no. 1). Instead, you'll build your search with simple drop-down boxes & text boxes (box no. 2)](https://d2mxuefqeaa7sj.cloudfront.net/s_C6ECCFF7E66F6E699F4500FB45950D50EB475BBB190812353ABCCDEAE0762FF9_1505995461829_Advanced+search.png)
+With GoldFynch's advanced search, you don't write the equation the software will use (box no. 1). Instead, you'll build your search with simple drop-down boxes & text boxes (box no. 2)
+{% image 2017-07-01/GoldFynch-Advanced-Search.png "GoldFynch Advanced Search" %}
 
 ## GoldFynch is cool for other reasons too!
 - **You don’t have to install anything.** It runs off the internet, and you use it through your web browser. So you can start working immediately. No sales calls or emails. And no credit card. Plus, your trial case is free.
 - **It’s easy to use.** It’s highly intuitive, and you’ll learn how to use it in minutes. 
 - **It lets you do eDiscovery essentials**, like tagging files and redacting privileged information. ‘Producing’ files takes just a few clicks. 
 - **Most importantly, it’s affordable.** Just $10 a month for a basic case. That’s $25 less—every month—than the nearest comparable software. And hundreds of dollars cheaper than many others.
+
 ## Want to learn more about GoldFynch?
 - [**Visit GoldFynch.com**](https://goldfynch.com/)
 - [**See GoldFynch’s pricing**](https://goldfynch.com/pricing.html)
+
 ## For more about eDiscovery for small law firms, check out these articles.
 - [eDiscovery: How it Works, and Why It Will Help Keep Your Small Law Firm Relevant](https://goldfynch.com/blog/2017/05/26/Ediscovery-How-it-Works-and-Why-It-Will-Help-Keep-Your-Small-Law-Firm-Relevant.html)
 - [Can eDiscovery Tools Make You a Better Lawyer?](https://goldfynch.com/blog/2017/05/30/can-ediscovery-tools-make-you-a-better-lawyer.html)
