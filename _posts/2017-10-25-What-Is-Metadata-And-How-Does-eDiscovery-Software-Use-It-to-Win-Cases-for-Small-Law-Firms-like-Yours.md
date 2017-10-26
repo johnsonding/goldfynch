@@ -8,7 +8,7 @@ excerpt: "Metadata is 'data about data,' and all computer files have it. But wha
 ---
 
 > Metadata is ‘data about data,’ and all computer files have it. But what does that mean? Why is it such a big deal? And how is it relevant to an attorney like you? This post explains all.  
-> 
+
 ## What is metadata?
 
 When you create a document on your computer, the app you’re using (e.g. Microsoft Word) records a whole bunch of information about it. Things like who created it, when they created it, when it was last opened, etc. This ‘data about data’ (i.e. metadata) is a digital footprint which tracks the history of the document. All files have metadata embedded in them, but you won’t see it unless you know where to look.
